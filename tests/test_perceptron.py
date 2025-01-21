@@ -59,7 +59,6 @@ def test_predict_const():
     assert model.predict(dp) == "1"
 
 
-@pytest.mark.test3
 def test_update_parameters():
     dp = DataPointWithFeatures(
         id=0,
