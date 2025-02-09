@@ -22,10 +22,14 @@ class BagOfWords(FeatureMap):
     STOP_WORDS = set(pd.read_csv("stopwords.txt", header=None)[0])
 
     @classmethod
-    def featurize(self, text: str) -> Dict[str, float]:
-        # TODO: implement this! Expected # of lines: <5
-        raise NotImplementedError
-        return self.prefix_with_name({})
+    def featurize(cls, text: str) -> Dict[str, float]:
+        # Tokenize, lowercase, remove stop words, and keep only unique words
+        unique_words = set(word.lower() for word in text.split() if word.lower() not in cls.STOP_WORDS)
+        
+        # Create features dictionary with count 1.0 for each unique word
+        features = {word: 1.0 for word in unique_words}
+        
+        return cls.prefix_with_name(features)
 
 
 class SentenceLength(FeatureMap):
