@@ -21,3 +21,10 @@ ENV/
 
 # IDE
 .vscode/
+
+# Local files
+multilayer_perceptron_local.py
+perceptron_local.py
+
+# To large for now
+results/perceptron_newsgroups_bow_model.json
