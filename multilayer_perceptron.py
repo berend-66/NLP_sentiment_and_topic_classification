@@ -35,6 +35,7 @@ from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 from utils import DataPoint, DataType, accuracy, load_data, save_results
 
+import pdb 
 
 class Tokenizer:
     # The index of the padding embedding.
@@ -57,15 +58,16 @@ class Tokenizer:
         return tokens
 
     def __init__(self, data: List[DataPoint], max_vocab_size: int = None):
-        # Create a corpus from all texts
+        # Create a corpus from all texts.
         corpus = " ".join([d.text for d in data])
         token_freq = Counter(self._pre_process_text(corpus))
-        # Keep only the most common tokens if max_vocab_size is set
+        # Keep only the most common tokens if max_vocab_size is set.
         token_freq = token_freq.most_common(max_vocab_size)
         tokens = [t for t, _ in token_freq]
-        # Offset indices by 1 because index 0 is reserved for padding
-        self.token2id = {t: (i + 1) for i, t in enumerate(tokens)}
-        self.token2id["<PAD>"] = Tokenizer.TOK_PADDING_INDEX
+        # Reserve index 0 for <PAD> and index 1 for <UNK>.
+        self.token2id = {t: (i + 2) for i, t in enumerate(tokens)}
+        self.token2id["<PAD>"] = Tokenizer.TOK_PADDING_INDEX  # 0
+        self.token2id["<UNK>"] = 1  # unknown token
         self.id2token = {i: t for t, i in self.token2id.items()}
 
     def tokenize(self, text: str) -> List[int]:
@@ -74,7 +76,11 @@ class Tokenizer:
         Only tokens present in the vocabulary are mapped
         """
         tokens = self._pre_process_text(text)
-        return [self.token2id[token] for token in tokens if token in self.token2id]
+        # If token list is empty, return the <PAD> token.
+        if not tokens:
+            return [self.token2id["<PAD>"]] # if the token list is empty, return the <PAD> token !NOT the unknown token
+        # For each token, if it's in the vocabulary use its ID, otherwise use <UNK>.
+        return [self.token2id.get(token, self.token2id["<UNK>"]) for token in tokens]
 
 
 def get_label_mappings(data: List[DataPoint]) -> Tuple[Dict[str, int], Dict[int, str]]:
@@ -91,7 +97,7 @@ class BOWDataset(Dataset):
         data: List[DataPoint],
         tokenizer: Tokenizer,
         label2id: Dict[str, int],
-        max_length: int = 100,
+        max_length: int = 100, # ie. default max length of 100 tokens
     ):
         super().__init__()
         self.data = data
@@ -114,6 +120,11 @@ class BOWDataset(Dataset):
         """
         dp: DataPoint = self.data[idx]
         token_ids = self.tokenizer.tokenize(dp.text)
+
+        # debugging to check if the tokenizer is working correctly (ie. if it is returning a list of token ids instead of an empty list)
+        if not token_ids:
+            pdb.set_trace()
+
         length = min(len(token_ids), self.max_length)
         # Pad the token sequence with the padding index
         if len(token_ids) < self.max_length:
@@ -142,7 +153,8 @@ class MultilayerPerceptronModel(nn.Module):
         num_classes: int,
         padding_index: int,
         hidden_dims: list = [100, 50],  # List of sizes for hidden layers with this a default 
-        activation: str = "relu"     # Activation function: "relu", "sigmoid", or "tanh", can add more later if needed
+        activation: str = "relu",     # Activation function: "relu", "sigmoid", or "tanh", can add more later if needed
+        dropout_rate: float = 0.0 # Default dropout rate of 0.0 which means no dropout
     ):
         """
         Initializes the model.
@@ -178,6 +190,9 @@ class MultilayerPerceptronModel(nn.Module):
         for hidden_dim in hidden_dims:
             layers.append(nn.Linear(input_dim, hidden_dim))
             layers.append(act_fn)
+            # Dropout layer
+            if dropout_rate > 0.0:
+                layers.append(nn.Dropout(dropout_rate))
             input_dim = hidden_dim
         # Final layer: outputs !logits! for each class --> might need to edit
         layers.append(nn.Linear(input_dim, num_classes))
@@ -282,9 +297,11 @@ class Trainer:
                 total_loss += loss.item() * inputs_b_l.size(0)
             per_dp_loss = total_loss / len(training_data)
             self.model.eval()
+
+            train_acc = self.evaluate(training_data)
             val_acc = self.evaluate(val_data)
             print(
-                f"Epoch: {epoch + 1:<2} | Loss: {per_dp_loss:.2f} | Val accuracy: {100 * val_acc:.2f}%"
+                f"Epoch: {epoch + 1:<2} | Loss: {per_dp_loss:.2f} | Train accuracy: {100 * train_acc:.2f}% | Val accuracy: {100 * val_acc:.2f}%"
             )
 
 
@@ -313,7 +330,7 @@ if __name__ == "__main__":
         "-hd",
         "--hidden_dims",
         type=str,
-        default="100, 50",
+        default="256, 128",
         help="Comma-separated list of hidden layer sizes (e.g., '100,50')",
     )
     parser.add_argument(
@@ -322,6 +339,26 @@ if __name__ == "__main__":
         type=str,
         default="adam",
         help="Optimizer to use (adam, sgd, adagrad)",
+    )
+    # New arguments for vocabulary size and document max length.
+    parser.add_argument(
+        "--max_vocab_size",
+        type=int,
+        default=20000,
+        help="Maximum vocabulary size for the tokenizer",
+    )
+    parser.add_argument(
+        "--max_length",
+        type=int,
+        default=100,
+        help="Maximum length (in tokens) for each document",
+    )
+    parser.add_argument(
+        "-dr",
+        "--dropout_rate",
+        type=float,
+        default=0.5,
+        help="Dropout rate to use in hidden layers (0.0 to disable dropout, e.g., 0.5 for 50% dropout)"
     )
     args = parser.parse_args()
 
@@ -334,12 +371,12 @@ if __name__ == "__main__":
 
     train_data, val_data, dev_data, test_data = load_data(data_type)
 
-    tokenizer = Tokenizer(train_data, max_vocab_size=20000)
+    tokenizer = Tokenizer(train_data, max_vocab_size=args.max_vocab_size)
     label2id, id2label = get_label_mappings(train_data)
     print("Id to label mapping:")
     pprint(id2label)
 
-    max_length = 100
+    max_length = args.max_length
     train_ds = BOWDataset(train_data, tokenizer, label2id, max_length)
     val_ds = BOWDataset(val_data, tokenizer, label2id, max_length)
     dev_ds = BOWDataset(dev_data, tokenizer, label2id, max_length)
@@ -350,17 +387,19 @@ if __name__ == "__main__":
         num_classes=len(label2id),
         padding_index=Tokenizer.TOK_PADDING_INDEX,
         hidden_dims=hidden_dims,   
-        activation=args.activation        
+        activation=args.activation,
+        dropout_rate=args.dropout_rate
     )
 
     # Different optimizer choices, instantiated (might be interesting to experiment with leaky relu and ELU later)
+    # Implemented L2 regularization for the weights of the model with the weight_decay parameter to avoid overfitting 
     optimizer_name = args.optimizer.lower()
     if optimizer_name == "adam":
-        optimizer = torch.optim.Adam(model.parameters(), lr=lr)
+        optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=0.001)
     elif optimizer_name == "sgd":
-        optimizer = torch.optim.SGD(model.parameters(), lr=lr)
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr, weight_decay=0.001)
     elif optimizer_name == "adagrad":
-        optimizer = torch.optim.Adagrad(model.parameters(), lr=lr)
+        optimizer = torch.optim.Adagrad(model.parameters(), lr=lr, weight_decay=0.001)
     else:
         raise ValueError(f"Unsupported optimizer: {args.optimizer}")
 
@@ -379,7 +418,7 @@ if __name__ == "__main__":
     test_preds = [id2label[pred] for pred in test_preds]
 
     # Set to true if you want to save results
-    if False:
+    if True:
         save_results(
             test_data,
             test_preds,

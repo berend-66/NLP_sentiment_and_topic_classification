@@ -137,10 +137,14 @@ class PerceptronModel:
                 prediction = self.predict(datapoint)
                 if prediction != datapoint.label:
                     self.update_parameters(datapoint, prediction, lr)
+
+            # Compute training accuracy on the training data.
+            train_acc = self.evaluate(training_data, save_path=None)
+    
             # Evaluate on validation data after each epoch.
             if val_data:
                 val_acc = self.evaluate(val_data, save_path=None)
-                print(f"Validation accuracy after epoch {epoch+1}: {100 * val_acc:.2f}%")
+                print(f"Epoch {epoch+1} | Training Accuracy: {100 * train_acc:.2f}% | Validation Accuracy: {100 * val_acc:.2f}%")
             
 
     def save_weights(self, path: str) -> None:
@@ -221,9 +225,10 @@ if __name__ == "__main__":
     print(f"Development accuracy: {100 * dev_acc:.2f}%")
 
     # Evaluate on the test set and save predictions.
-    _ = model.evaluate(
-        test_data,
-        save_path=os.path.join(
+    if True: # TODO: uncomment this when ready to save test predictions
+        _ = model.evaluate(
+            test_data,
+            save_path=os.path.join(
             "results",
             f"perceptron_{args.data}_test_predictions.csv",
         ),

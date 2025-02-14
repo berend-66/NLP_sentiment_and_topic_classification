@@ -25,6 +25,8 @@ ENV/
 # Local files
 multilayer_perceptron_local.py
 perceptron_local.py
+test_tokenizer.py
+test_tokenizer_unknown.py
 
 # To large for now
 results/perceptron_newsgroups_bow_model.json
