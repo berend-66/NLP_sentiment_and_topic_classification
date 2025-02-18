@@ -27,6 +27,7 @@ import os
 from collections import Counter
 from pprint import pprint
 from typing import Dict, List, Tuple
+import re
 
 import pandas as pd
 import torch
@@ -45,16 +46,45 @@ class Tokenizer:
 
     def _pre_process_text(self, text: str) -> List[str]:
         """
-        Pre-process the input text:
-          - Lowercase the text.
-          - Split on whitespace.
-          - Strip common punctuation.
-          - Remove stop words.
+        Enhanced pre-processing of input text:
+          - Lowercase the text
+          - Split on whitespace
+          - Strip punctuation except for ! and ?
+          - Remove stop words
+          - Remove numbers
+          - Remove extra whitespace
+          - Remove very short words
+          - Handle contractions
+          - Remove special characters
         """
-        tokens = text.lower().split()
-        tokens = [token.strip(".,!?;:()[]\"'") for token in tokens]
-        tokens = [token for token in tokens if token not in self.STOP_WORDS and token != ""]
-        # add more here
+        # Convert to lowercase
+        text = text.lower()
+        
+        # Remove special characters and digits
+        text = re.sub(r'[^\w\s!?]', ' ', text) # Replace special chars with space while keeping ! and ?
+        text = re.sub(r'\d+', '', text)       # Remove numbers
+        
+        # Handle common contractions
+        text = text.replace("'s", "")
+        text = text.replace("n't", " not")
+        text = text.replace("'ve", " have")
+        text = text.replace("'re", " are")
+        text = text.replace("'m", " am")
+        text = text.replace("'ll", " will")
+        text = text.replace("'d", " would")
+        
+        # Split into tokens
+        tokens = text.split()
+        
+        # Remove stop words and empty strings
+        tokens = [token for token in tokens 
+                 if token not in self.STOP_WORDS 
+                 and token != ""
+                 and len(token) > 2]  # Remove very short words
+        
+        # Remove extra whitespace
+        tokens = [token.strip() for token in tokens]
+        
         return tokens
 
     def __init__(self, data: List[DataPoint], max_vocab_size: int = None):
@@ -273,22 +303,29 @@ class Trainer:
         val_data: BOWDataset,
         optimizer: torch.optim.Optimizer,
         num_epochs: int,
+        patience: int = 3  # Number of epochs to wait for improvement
     ) -> None:
         """
-        Trains the MLP.
-        Args:
-            training_data (BOWDataset): Training dataset.
-            val_data (BOWDataset): Validation dataset.
-            optimizer (torch.optim.Optimizer): Optimization method.
-            num_epochs (int): Number of training epochs.
+        Trains the MLP model with early stopping based on validation accuracy.
+
+        Parameters:
+            training_data (BOWDataset): The training dataset.
+            val_data (BOWDataset): The validation dataset.
+            optimizer (torch.optim.Optimizer): The optimizer for training.
+            num_epochs (int): Maximum number of epochs.
+            patience (int): Number of epochs with no improvement after which training will be stopped.
         """
         torch.manual_seed(0)
         loss_fn = nn.CrossEntropyLoss()
+        best_val_acc = 0.0
+        epochs_without_improvement = 0
+        best_model_state = None
+
         for epoch in range(num_epochs):
             self.model.train()
             total_loss = 0.0
-            dataloader = DataLoader(training_data, batch_size=4, shuffle=True) # batch_size currently set to 4, experiment with later
-            for inputs_b_l, lengths_b, labels_b in tqdm(dataloader):
+            dataloader = DataLoader(training_data, batch_size=4, shuffle=True)
+            for inputs_b_l, lengths_b, labels_b in tqdm(dataloader, desc=f"Epoch {epoch+1}"):
                 optimizer.zero_grad()
                 outputs = self.model(inputs_b_l, lengths_b)
                 loss = loss_fn(outputs, labels_b)
@@ -296,13 +333,28 @@ class Trainer:
                 optimizer.step()
                 total_loss += loss.item() * inputs_b_l.size(0)
             per_dp_loss = total_loss / len(training_data)
-            self.model.eval()
 
+            # Evaluate on training and validation sets
             train_acc = self.evaluate(training_data)
             val_acc = self.evaluate(val_data)
-            print(
-                f"Epoch: {epoch + 1:<2} | Loss: {per_dp_loss:.2f} | Train accuracy: {100 * train_acc:.2f}% | Val accuracy: {100 * val_acc:.2f}%"
-            )
+
+            print(f"Epoch: {epoch + 1:<2} | Loss: {per_dp_loss:.2f} | Train Acc: {100 * train_acc:.2f}% | Val Acc: {100 * val_acc:.2f}%")
+
+            # Early stopping check
+            if val_acc > best_val_acc:
+                best_val_acc = val_acc
+                epochs_without_improvement = 0
+                best_model_state = self.model.state_dict()
+            else:
+                epochs_without_improvement += 1
+
+            if epochs_without_improvement >= patience:
+                print(f"Validation accuracy has not improved for {patience} epochs. Stopping early.")
+                break
+
+        # Restore the best model
+        if best_model_state is not None:
+            self.model.load_state_dict(best_model_state)
 
 
 if __name__ == "__main__":
@@ -314,7 +366,13 @@ if __name__ == "__main__":
         default="sst2",
         help="Data source, one of ('sst2', 'newsgroups')",
     )
-    parser.add_argument("-e", "--epochs", type=int, default=3, help="Number of epochs")
+    parser.add_argument(
+        "-e", 
+        "--epochs", 
+        type=int, 
+        default=3, 
+        help="Number of epochs"
+    )
     parser.add_argument(
         "-l", "--learning_rate", type=float, default=0.001, help="Learning rate"
     )
@@ -360,6 +418,17 @@ if __name__ == "__main__":
         default=0.5,
         help="Dropout rate to use in hidden layers (0.0 to disable dropout, e.g., 0.5 for 50% dropout)"
     )
+    parser.add_argument(
+        "--error_analysis",
+        action="store_true",
+        help="If set, print error examples from the dev set"
+    )
+    parser.add_argument(
+        "--save_test_predictions", 
+        action="store_true",
+        help="If set, save test predictions"
+    )
+    
     args = parser.parse_args()
 
     # Parse the hidden_dims string into a list of integers
@@ -417,8 +486,89 @@ if __name__ == "__main__":
     test_preds = trainer.predict(test_ds)
     test_preds = [id2label[pred] for pred in test_preds]
 
+    # Error Analysis Block
+    if args.error_analysis:
+        print("\nQualitative Error Analysis:")
+        errors = []
+        model.eval()  # Set model to evaluation mode
+        
+        # Define label mappings for different datasets
+        label_maps = {
+            'sst2': {
+                0: "negative",
+                1: "positive"
+            },
+            'newsgroups': {
+                0: "atheism",
+                1: "computer graphics",
+                2: "computer os microsoft windows misc",
+                3: "computer systems ibm pc hardware",
+                4: "computer windows x",
+                5: "misc forsale",
+                6: "rec autos",
+                7: "rec motorcycles",
+                8: "rec sport baseball",
+                9: "rec sport hockey",
+                10: "sci crypt",
+                11: "sci electronics",
+                12: "sci med",
+                13: "sci space",
+                14: "soc religion christian",
+                15: "talk politics guns",
+                16: "talk politics mideast",
+                17: "talk politics misc",
+                18: "talk religion misc",
+                19: "computer systems mac hardware"
+            }
+        }
+        
+        # Get the appropriate label map
+        label_map = label_maps.get(args.data, {})
+        
+        # Loop over each development example
+        with torch.no_grad():
+            for dp in dev_data:
+                try:
+                    # Prepare input
+                    token_ids = tokenizer.tokenize(dp.text)
+                    input_tensor = torch.tensor(token_ids).unsqueeze(0)
+                    input_length = torch.tensor([len(token_ids)])
+                    
+                    # Get model prediction
+                    logits = model(input_tensor, input_length)
+                    pred = logits.argmax(dim=1).item()
+                    true_label = dp.label
+                    
+                    # Only collect actual errors
+                    if pred != true_label:
+                        errors.append({
+                            'text': dp.text,
+                            'true_label': true_label,
+                            'true_label_name': label_map.get(true_label, str(true_label)),
+                            'pred_label': pred,
+                            'pred_label_name': label_map.get(pred, str(pred)),
+                            'confidence': torch.softmax(logits, dim=1).max().item()
+                        })
+                except Exception as e:
+                    print(f"Error processing example: {str(e)}")
+                    continue
+        
+        # Report results
+        total_errors = len(errors)
+        print(f"\nFound {total_errors} errors in {len(dev_data)} examples")
+        print(f"Error rate: {(total_errors/len(dev_data))*100:.2f}%\n")
+        
+        # Print detailed error analysis
+        for i, error in enumerate(errors[:100], 1):
+            print(f"Error {i}/{total_errors}:")
+            print(f"Text snippet: {error['text'][:200]}...")
+            print(f"True label: {error['true_label_name']}")
+            print(f"Predicted label: {error['pred_label_name']}")
+            print(f"Confidence: {error['confidence']*100:.2f}%")
+            print("-" * 80)
+
     # Set to true if you want to save results
-    if True:
+    if args.save_test_predictions:
         save_results(
             test_data,
             test_preds,

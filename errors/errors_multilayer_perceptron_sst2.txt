@@ -1,0 +1,1198 @@
+Qualitative Error Analysis:
+Total error examples: 871
+Error 1:
+Text snippet: It 's a lovely film with lovely performances by Buy and Accorsi .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 2:
+Text snippet: And if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 3:
+Text snippet: A warm , funny , engaging film .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 4:
+Text snippet: Uses sharp humor and insight into human nature to examine class conflict , adolescent yearning , the roots of friendship and sexual identity .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 5:
+Text snippet: Entertains by providing good , lively company .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 6:
+Text snippet: Dazzles with its fully-written characters , its determined stylishness ( which always relates to characters and story ) and Johnny Dankworth 's best soundtrack in years .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 7:
+Text snippet: Visually imaginative , thematically instructive and thoroughly delightful , it takes us on a roller-coaster ride from innocence to experience without even a hint of that typical kiddie-flick sentiment
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 8:
+Text snippet: Nothing 's at stake , just a twisty double-cross you can smell a mile away -- still , the derivative Nine Queens is lots of fun .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 9:
+Text snippet: Unlike the speedy wham-bam effect of most Hollywood offerings , character development -- and more importantly , character empathy -- is at the heart of Italian for Beginners .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 10:
+Text snippet: You 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 11:
+Text snippet: The band 's courage in the face of official repression is inspiring , especially for aging hippies ( this one included ) .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 12:
+Text snippet: Although German cooking does not come readily to mind when considering the world 's best cuisine , Mostly Martha could make Deutchland a popular destination for hungry tourists .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 13:
+Text snippet: A beguiling splash of pastel colors and prankish comedy from Disney .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 14:
+Text snippet: As surreal as a dream and as detailed as a photograph , as visually dexterous as it is at times imaginatively overwhelming .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 15:
+Text snippet: ( Lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 16:
+Text snippet: What 's surprising about Full Frontal is that despite its overt self-awareness , parts of the movie still manage to break past the artifice and thoroughly engage you .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 17:
+Text snippet: Whether you like rap music or loathe it , you ca n't deny either the tragic loss of two young men in the prime of their talent or the power of this movie .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 18:
+Text snippet: ... an otherwise intense , twist-and-turn thriller that certainly should n't hurt talented young Gaghan 's resume .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 19:
+Text snippet: It provides the grand , intelligent entertainment of a superior cast playing smart people amid a compelling plot .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 20:
+Text snippet: There 's ... tremendous energy from the cast , a sense of playfulness and excitement that seems appropriate .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 21:
+Text snippet: It moves quickly , adroitly , and without fuss ; it does n't give you time to reflect on the inanity -- and the Cold War datedness -- of its premise .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 22:
+Text snippet: A deep and meaningful film .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 23:
+Text snippet: The film 's welcome breeziness and some unbelievably hilarious moments -- most portraying the idiocy of the film industry -- make it mostly worth the trip .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 24:
+Text snippet: It 's a remarkably solid and subtly satirical tour de force .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 25:
+Text snippet: Enormously entertaining for moviegoers of any age .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 26:
+Text snippet: A poignant , artfully crafted meditation on mortality .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 27:
+Text snippet: A rarity among recent Iranian films : It 's a comedy full of gentle humor that chides the absurdity of its protagonist 's plight .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 28:
+Text snippet: Not only is Undercover Brother as funny , if not more so , than both Austin Powers films , but it 's also one of the smarter , savvier spoofs to come along in some time .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 29:
+Text snippet: In a way , the film feels like a breath of fresh air , but only to those that allow it in .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 30:
+Text snippet: Woody Allen 's latest is an ambling , broad comedy about all there is to love -- and hate -- about the movie biz .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 31:
+Text snippet: It 's a stunning lyrical work of considerable force and truth .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 32:
+Text snippet: ( Næs ) directed the stage version of Elling , and gets fine performances from his two leads who originated the characters on stage .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 33:
+Text snippet: A coda in every sense , The Pinochet Case splits time between a minute-by-minute account of the British court 's extradition chess game and the regime 's talking-head survivors .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 34:
+Text snippet: Like Mike is a winner for kids , and no doubt a winner for Lil Bow Wow , who can now add movies to the list of things he does well .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 35:
+Text snippet: ( T ) his beguiling Belgian fable , very much its own droll and delicate little film , has some touching things to say about what is important in life and why .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 36:
+Text snippet: Here 's yet another studio horror franchise mucking up its storyline with glitches casual fans could correct in their sleep .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 37:
+Text snippet: But taken as a stylish and energetic one-shot , The Queen of the Damned can not be said to suck .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 38:
+Text snippet: You wo n't like Roger , but you will quickly recognize him .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 39:
+Text snippet: And that 's a big part of why we go to the movies .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 40:
+Text snippet: We know the plot 's a little crazy , but it held my interest from start to finish .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 41:
+Text snippet: A fast , funny , highly enjoyable movie .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 42:
+Text snippet: A celebration of quirkiness , eccentricity , and certain individuals ' tendency to let it all hang out , and damn the consequences .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 43:
+Text snippet: Writer\/director Joe Carnahan 's grimy crime drama is a manual of precinct cliches , but it moves fast enough to cover its clunky dialogue and lapses in logic .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 44:
+Text snippet: A smart , witty follow-up .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 45:
+Text snippet: While the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 46:
+Text snippet: An infectious cultural fable with a tasty balance of family drama and frenetic comedy .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 47:
+Text snippet: It provides an honest look at a community striving to anchor itself in new grounds .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 48:
+Text snippet: Add yet another hat to a talented head , Clooney 's a good director .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 49:
+Text snippet: Building slowly and subtly , the film , sporting a breezy spontaneity and realistically drawn characterizations , develops into a significant character study that is both moving and wise .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 50:
+Text snippet: Ultimately feels empty and unsatisfying , like swallowing a Communion wafer without the wine .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 51:
+Text snippet: Chilling , well-acted , and finely directed : David Jacobson 's Dahmer .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 52:
+Text snippet: A swashbuckling tale of love , betrayal , revenge and above all , faith .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 53:
+Text snippet: Without ever becoming didactic , director Carlos Carrera expertly weaves this novelistic story of entangled interrelationships and complex morality .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 54:
+Text snippet: A literate presentation that wonderfully weaves a murderous event in 1873 with murderous rage in 2002 .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 55:
+Text snippet: One of the best films of the year with its exploration of the obstacles to happiness faced by five contemporary individuals ... a psychological masterpiece .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 56:
+Text snippet: Not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 57:
+Text snippet: For the most part Stevens glides through on some solid performances and witty dialogue .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 58:
+Text snippet: Broomfield turns his distinctive ` blundering ' style into something that could really help clear up the case .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 59:
+Text snippet: Against all odds in heaven and hell , it creeped me out just fine .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 60:
+Text snippet: It 's refreshing to see a girl-power movie that does n't feel it has to prove anything .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 633:
+Text snippet: I do n't mind having my heartstrings pulled , but do n't treat me like a fool .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 634:
+Text snippet: Its well of thorn and vinegar ( and simple humanity ) has long been plundered by similar works featuring the insight and punch this picture so conspicuously lacks .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 635:
+Text snippet: For all its impressive craftsmanship , and despite an overbearing series of third-act crescendos , Lily Chou-Chou never really builds up a head of emotional steam .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 636:
+Text snippet: Do n't be fooled by the impressive cast list - Eye See You is pure junk .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 637:
+Text snippet: Not since Freddy Got Fingered has a major release been so painful to sit through .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 638:
+Text snippet: Plays like a volatile and overlong W magazine fashion spread .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 639:
+Text snippet: A better title , for all concerned , might be Swept Under the Rug .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 640:
+Text snippet: This movie seems to have been written using Mad-libs .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 641:
+Text snippet: Hilariously inept and ridiculous .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 642:
+Text snippet: Vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 643:
+Text snippet: ( A ) shapeless blob of desperate entertainment .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 644:
+Text snippet: Feels too formulaic and too familiar to produce the transgressive thrills of early underground work .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 645:
+Text snippet: Given how heavy-handed and portent-heavy it is , this could be the worst thing Soderbergh has ever done .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 646:
+Text snippet: a by-the-numbers patient\/doctor pic that covers all the usual ground
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 647:
+Text snippet: A dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 648:
+Text snippet: Stealing Harvard aspires to comedic grand larceny but stands convicted of nothing more than petty theft of your time .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 649:
+Text snippet: For this reason and this reason only -- the power of its own steadfast , hoity-toity convictions -- Chelsea Walls deserves a medal .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 650:
+Text snippet: With the exception of some fleetingly amusing improvisations by Cedric the Entertainer as Perry 's boss , there is n't a redeeming moment here .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 651:
+Text snippet: It 's a grab bag of genres that do n't add up to a whole lot of sense .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 652:
+Text snippet: Movie fans , get ready to take off ... the other direction .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 653:
+Text snippet: ( director ) O'Fallon manages to put some lovely pictures up on the big screen , but his skill at telling a story -- he also contributed to the screenplay -- falls short .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 654:
+Text snippet: All that 's missing is the spontaneity , originality and delight .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 655:
+Text snippet: No one but a convict guilty of some truly heinous crime should have to sit through The Master of Disguise .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 656:
+Text snippet: Even the finest chef ca n't make a hotdog into anything more than a hotdog , and Robert De Niro ca n't make this movie anything more than a trashy cop buddy comedy .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 657:
+Text snippet: There 's too much falseness to the second half , and what began as an intriguing look at youth fizzles into a dull , ridiculous attempt at heart-tugging .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 658:
+Text snippet: Miller is playing so free with emotions , and the fact that children are hostages to fortune , that he makes the audience hostage to his swaggering affectation of seriousness .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 659:
+Text snippet: Despite the evocative aesthetics evincing the hollow state of modern love life , the film never percolates beyond a monotonous whine .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 660:
+Text snippet: This is an egotistical endeavor from the daughter of horror director Dario Argento ( a producer here ) , but her raw performance and utter fearlessness make it strangely magnetic .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 661:
+Text snippet: It 's slow -- very , very slow .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 662:
+Text snippet: It 's not the ultimate Depression-era gangster movie .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 663:
+Text snippet: That 's pure PR hype .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 664:
+Text snippet: Characters still need to function according to some set of believable and comprehensible impulses , no matter how many drugs they do or how much artistic license Avary employs .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 665:
+Text snippet: Comes ... uncomfortably close to coasting in the treads of The Bicycle Thief .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 666:
+Text snippet: Visually rather stunning , but ultimately a handsome-looking bore , the true creativity would have been to hide Treasure Planet entirely and completely reimagine it .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 667:
+Text snippet: Stealing Harvard is evidence that the Farrelly Bros. -- Peter and Bobby -- and their brand of screen comedy are wheezing to an end , along with Green 's half-hearted movie career .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 668:
+Text snippet: There seems to be no clear path as to where the story 's going , or how long it 's going to take to get there .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 669:
+Text snippet: I do n't think I laughed out loud once .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 670:
+Text snippet: And when you 're talking about a slapstick comedy , that 's a pretty big problem .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 671:
+Text snippet: It 's so mediocre , despite the dynamic duo on the marquee , that we just ca n't get no satisfaction .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 672:
+Text snippet: Slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree 
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 673:
+Text snippet: ... turns so unforgivably trite in its last 10 minutes that anyone without a fortified sweet tooth will likely go into sugar shock .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 674:
+Text snippet: The notion that bombing buildings is the funniest thing in the world goes entirely unexamined in this startlingly unfunny comedy .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 675:
+Text snippet: My reaction in a word : disappointment .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 676:
+Text snippet: His last movie was poetically romantic and full of indelible images , but his latest has nothing going for it .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 677:
+Text snippet: Sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is Rebecca Romijn-Stamos .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 678:
+Text snippet: Intriguing documentary which is emotionally diluted by focusing on the story 's least interesting subject .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 679:
+Text snippet: Feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 680:
+Text snippet: For each chuckle there are at least 10 complete misses , many coming from the amazingly lifelike Tara Reid , whose acting skills are comparable to a cardboard cutout .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 681:
+Text snippet: I 've always dreamed of attending Cannes , but after seeing this film , it 's not that big a deal .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 682:
+Text snippet: It can not be enjoyed , even on the level that one enjoys a bad slasher flick , primarily because it is dull .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 683:
+Text snippet: Yes , dull .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 684:
+Text snippet: Director Uwe Boll and the actors provide scant reason to care in this crude '70s throwback .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 685:
+Text snippet: ( W ) hile long on amiable monkeys and worthy environmentalism , Jane Goodall 's Wild Chimpanzees is short on the thrills the oversize medium demands .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 686:
+Text snippet: Outer-space buffs might love this film , but others will find its pleasures intermittent .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 687:
+Text snippet: This piece of Channel 5 grade trash is , quite frankly , an insult to the intelligence of the true genre enthusiast .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 688:
+Text snippet: An occasionally funny , but overall limp , fish-out-of-water story .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 689:
+Text snippet: A bloated gasbag thesis grotesquely impressed by its own gargantuan aura of self-importance ...
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 690:
+Text snippet: As A Rumor of Angels reveals itself to be a sudsy tub of supernatural hokum , not even Ms. Redgrave 's noblest efforts can redeem it from hopeless sentimentality .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 691:
+Text snippet: The humor is forced and heavy-handed , and occasionally simply unpleasant .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 692:
+Text snippet: As the latest bid in the TV-to-movie franchise game , I Spy makes its big-screen entry with little of the nervy originality of its groundbreaking small-screen progenitor .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 693:
+Text snippet: This is n't even Madonna 's Swept Away .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 694:
+Text snippet: The director knows how to apply textural gloss , but his portrait of sex-as-war is strictly sitcom .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 695:
+Text snippet: ... the film suffers from a lack of humor ( something needed to balance out the violence ) ...
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 696:
+Text snippet: Burns never really harnesses to full effect the energetic cast .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 697:
+Text snippet: An overemphatic , would-be wacky , ultimately tedious sex farce .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 698:
+Text snippet: Has all the depth of a wading pool .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 699:
+Text snippet: This is the sort of burly action flick where one coincidence pummels another , narrative necessity is a drunken roundhouse , and whatever passes for logic is a factor of the last plot device left stan
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 700:
+Text snippet: The so-inept - it 's - surreal dubbing ( featuring the voices of Glenn Close , Regis Philbin and Breckin Meyer ) brings back memories of cheesy old Godzilla flicks .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 701:
+Text snippet: ... the movie is just a plain old monster .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 702:
+Text snippet: One long string of cliches .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 703:
+Text snippet: Fancy a real downer ?
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 704:
+Text snippet: Professionally speaking , it 's tempting to jump ship in January to avoid ridiculous schlock like this shoddy suspense thriller .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 705:
+Text snippet: Nelson 's brutally unsentimental approach ... sucks the humanity from the film , leaving behind an horrific but weirdly unemotional spectacle .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 706:
+Text snippet: At once half-baked and overheated .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 707:
+Text snippet: ( Serry ) wants to blend politics and drama , an admirable ambition .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 708:
+Text snippet: It 's too bad that the helping hand he uses to stir his ingredients is also a heavy one .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 709:
+Text snippet: Of course , by more objective measurements it 's still quite bad .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 710:
+Text snippet: Sam Mendes has become valedictorian at the School for Soft Landings and Easy Ways Out .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 711:
+Text snippet: Its story may be a thousand years old , but why did it have to seem like it took another thousand to tell it to us ?
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 712:
+Text snippet: The problem with this film is that it lacks focus .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 713:
+Text snippet: I sympathize with the plight of these families , but the movie does n't do a very good job conveying the issue at hand .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 714:
+Text snippet: Dull , lifeless , and amateurishly assembled .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 715:
+Text snippet: It 's a bad thing when a movie has about as much substance as its end credits blooper reel .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 716:
+Text snippet: With its dogged Hollywood naturalism and the inexorable passage of its characters toward sainthood , Windtalkers is nothing but a sticky-sweet soap .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 717:
+Text snippet: No aspirations to social import inform the movie version .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 718:
+Text snippet: This is a shameless sham , calculated to cash in on the popularity of its stars .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 719:
+Text snippet: It 's clear the filmmakers were n't sure where they wanted their story to go , and even more clear that they lack the skills to get us to this undetermined destination .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 720:
+Text snippet: As vulgar as it is banal .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 721:
+Text snippet: You wonder why Enough was n't just a music video rather than a full-length movie .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 722:
+Text snippet: The film 's tone and pacing are off almost from the get-go .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 723:
+Text snippet: The talented and clever Robert Rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 724:
+Text snippet: More whiny downer than corruscating commentary .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 725:
+Text snippet: Suffocated by its fussy script and uptight characters , this musty adaptation is all the more annoying since it 's been packaged and sold back to us by Hollywood .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 726:
+Text snippet: Coughs and sputters on its own postmodern conceit .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 727:
+Text snippet: A wildly inconsistent emotional experience .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 728:
+Text snippet: Sit through this one , and you wo n't need a magic watch to stop time ; your DVD player will do it for you .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 729:
+Text snippet: A sometimes tedious film .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 730:
+Text snippet: Teen movies have really hit the skids .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 731:
+Text snippet: There are plot holes big enough for Shamu the killer whale to swim through .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 732:
+Text snippet: ... plays like somebody spliced random moments of a Chris Rock routine into what is otherwise a cliche-riddled but self-serious spy thriller .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 733:
+Text snippet: What is 100 % missing here is a script of even the most elemental literacy , an inkling of genuine wit , and anything resembling acting .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 734:
+Text snippet: does paint some memorable images ... , but Makhmalbaf keeps her distance from the characters
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 735:
+Text snippet: just not campy enough
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 736:
+Text snippet: The movie , directed by Mick Jackson , leaves no cliche unturned , from the predictable plot to the characters straight out of central casting .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 737:
+Text snippet: It 's everything you do n't go to the movies for .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 738:
+Text snippet: Like watching a dress rehearsal the week before the show goes up : everything 's in place but something 's just a little off-kilter .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 739:
+Text snippet: The affectionate loopiness that once seemed congenital to Demme 's perspective has a tough time emerging from between the badly dated cutesy-pie mystery scenario and the newfangled Hollywood post-prod
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 740:
+Text snippet: For all its technical virtuosity , the film is so mired in juvenile and near-xenophobic pedagogy that it 's enough to make one pine for the day when Godard can no longer handle the rigors of filmmakin
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 741:
+Text snippet: American Chai encourages rueful laughter at stereotypes only an Indian-American would recognize .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 742:
+Text snippet: And the lesson , in the end , is nothing new .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 743:
+Text snippet: It made me want to wrench my eyes out of my head and toss them at the screen .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 744:
+Text snippet: Due to some script weaknesses and the casting of the director 's brother , the film trails off into inconsequentiality .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 745:
+Text snippet: ... plot holes so large and obvious a marching band might as well be stomping through them in clown clothes , playing a college football fight song on untuned instruments .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 746:
+Text snippet: So devoid of any kind of intelligible story that it makes films like XXX and Collateral Damage seem like thoughtful treatises
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 747:
+Text snippet: Combining quick-cut editing and a blaring heavy metal much of the time , Beck seems to be under the illusion that he 's shooting the latest System of a Down video .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 748:
+Text snippet: Dragonfly has no atmosphere , no tension -- nothing but Costner , flailing away .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 749:
+Text snippet: It 's a buggy drag .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 750:
+Text snippet: Works hard to establish rounded characters , but then has nothing fresh or particularly interesting to say about them .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 751:
+Text snippet: The action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 752:
+Text snippet: Nonsensical , dull `` cyber-horror '' flick is a grim , hollow exercise in flat scares and bad acting .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 753:
+Text snippet: Instead of hiding Pinocchio from critics , Miramax should have hidden it from everyone .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 754:
+Text snippet: Manages to be both repulsively sadistic and mundane .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 755:
+Text snippet: A great ensemble cast ca n't lift this heartfelt enterprise out of the familiar .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 756:
+Text snippet: There ought to be a directing license , so that Ed Burns can have his revoked .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 757:
+Text snippet: The structure the film takes may find Matt Damon and Ben Affleck once again looking for residuals as this officially completes a Good Will Hunting trilogy that was never planned .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 758:
+Text snippet: ... a boring parade of talking heads and technical gibberish that will do little to advance the Linux cause .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 759:
+Text snippet: Green might want to hang onto that ski mask , as robbery may be the only way to pay for his next project .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 760:
+Text snippet: I can take infantile humor ... but this is the sort of infantile that makes you wonder about changing the director and writer 's diapers .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 761:
+Text snippet: There is n't nearly enough fun here , despite the presence of some appealing ingredients .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 762:
+Text snippet: The tale of Tok ( Andy Lau ) , a sleek sociopath on the trail of O ( Takashi Sorimachi ) , the most legendary of Asian hitmen , is too scattershot to take hold .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 763:
+Text snippet: Directed in a paint-by-numbers manner .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 764:
+Text snippet: A lackluster , unessential sequel to the classic Disney adaptation of J.M. Barrie 's Peter Pan .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 765:
+Text snippet: Samira Makhmalbaf 's new film Blackboards is much like the ethos of a stream of consciousness , although , it 's unfortunate for the viewer that the thoughts and reflections coming through are torpid 
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 766:
+Text snippet: ... routine , harmless diversion and little else .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 767:
+Text snippet: Late Marriage 's stiffness is unlikely to demonstrate the emotional clout to sweep U.S. viewers off their feet .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 768:
+Text snippet: This time Mr. Burns is trying something in the Martin Scorsese street-realist mode , but his self-regarding sentimentality trips him up again .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 769:
+Text snippet: While there 's something intrinsically funny about Sir Anthony Hopkins saying ` Get in the car , bitch , ' this Jerry Bruckheimer production has little else to offer
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 770:
+Text snippet: It 's hampered by a Lifetime-channel kind of plot and a lead actress who is out of her depth .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 771:
+Text snippet: There is very little dread or apprehension , and though I like the creepy ideas , they are not executed with anything more than perfunctory skill .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 772:
+Text snippet: If you 've ever entertained the notion of doing what the title of this film implies , what Sex With Strangers actually shows may put you off the idea forever .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 773:
+Text snippet: In the end , the movie collapses on its shaky foundation despite the best efforts of director Joe Carnahan .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 774:
+Text snippet: Adults will wish the movie were less simplistic , obvious , clumsily plotted and shallowly characterized .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 775:
+Text snippet: But what are adults doing in the theater at all ?
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 776:
+Text snippet: Sticky sweet sentimentality , clumsy plotting and a rosily myopic view of life in the WWII-era Mississippi Delta undermine this adaptation .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 777:
+Text snippet: It 's another stale , kill-by-numbers flick , complete with blade-thin characters and terrible , pun-laden dialogue .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 778:
+Text snippet: Every time you look , Sweet Home Alabama is taking another bummer of a wrong turn .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 779:
+Text snippet: Partway through watching this saccharine , Easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected TV show .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 780:
+Text snippet: The overall effect is less like a children 's movie than a recruitment film for future Hollywood sellouts .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 781:
+Text snippet: Portentous and pretentious , The Weight of Water is appropriately titled , given the heavy-handedness of it drama .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 782:
+Text snippet: A fitfully amusing romp that , if nothing else , will appeal to fans of Malcolm in the Middle and its pubescent star , Frankie Muniz .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 783:
+Text snippet: Jason X is positively anti-Darwinian : nine sequels and 400 years later , the teens are none the wiser and Jason still kills on auto-pilot .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 784:
+Text snippet: To say this was done better in Wilder 's Some Like It Hot is like saying the sun rises in the east .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 785:
+Text snippet: At the very least , if you do n't know anything about Derrida when you walk into the theater , you wo n't know much more when you leave .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 786:
+Text snippet: As ` chick flicks ' go , this one is pretty miserable , resorting to string-pulling rather than legitimate character development and intelligent plotting .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 787:
+Text snippet: The only excitement comes when the credits finally roll and you get to leave the theater .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 788:
+Text snippet: There 's no emotional pulse to Solaris .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 789:
+Text snippet: It ca n't decide if it wants to be a mystery\/thriller , a romance or a comedy .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 790:
+Text snippet: The character of ZigZag is not sufficiently developed to support a film constructed around him .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 791:
+Text snippet: One of those pictures whose promising , if rather precious , premise is undercut by amateurish execution .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 792:
+Text snippet: Serving Sara does n't serve up a whole lot of laughs .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 793:
+Text snippet: The most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 794:
+Text snippet: With virtually no interesting elements for an audience to focus on , Chelsea Walls is a triple-espresso endurance challenge .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 795:
+Text snippet: Deadeningly dull , mired in convoluted melodrama , nonsensical jargon and stiff-upper-lip laboriousness .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 796:
+Text snippet: A misogynistic piece of filth that attempts to pass itself off as hip , young adult entertainment .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 797:
+Text snippet: The film makes a fatal mistake : It asks us to care about a young man whose only apparent virtue is that he is not quite as unpleasant as some of the people in his life .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 798:
+Text snippet: Another in-your-face wallow in the lower depths made by people who have never sung those blues .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 799:
+Text snippet: Shaky close-ups of turkey-on-rolls , stubbly chins , liver spots , red noses and the filmmakers new bobbed do draw easy chuckles but lead nowhere .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 800:
+Text snippet: Complete lack of originality , cleverness or even visible effort
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 801:
+Text snippet: Though Perry and Hurley make inspiring efforts to breathe life into the disjointed , haphazard script by Jay Scherick and David Ronn , neither the actors nor director Reginald Hudlin can make it more 
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 802:
+Text snippet: Something akin to a Japanese Alice Through the Looking Glass , except that it seems to take itself far more seriously .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 803:
+Text snippet: It takes talent to make a lifeless movie about the most heinous man who ever lived .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 804:
+Text snippet: On the whole , the movie lacks wit , feeling and believability to compensate for its incessant coarseness and banality .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 805:
+Text snippet: The story and the friendship proceeds in such a way that you 're watching a soap opera rather than a chronicle of the ups and downs that accompany lifelong friendships .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 806:
+Text snippet: Offers very little genuine romance and even fewer laughs ... a sad sitcom of a movie , largely devoid of charm .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 807:
+Text snippet: Makes for a pretty unpleasant viewing experience .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 808:
+Text snippet: The movie fails to live up to the sum of its parts .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 809:
+Text snippet: Although Huppert 's intensity and focus has a raw exhilaration about it , The Piano Teacher is anything but fun .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 810:
+Text snippet: It showcases Carvey 's talent for voices , but not nearly enough and not without taxing every drop of one 's patience to get to the good stuff .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 811:
+Text snippet: Bad .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 812:
+Text snippet: Very bad .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 813:
+Text snippet: Stultifyingly , dumbfoundingly , mind-numbingly bad .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 814:
+Text snippet: May reawaken discussion of the Kennedy assassination but this fictional film looks made for cable rather than for the big screen .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 815:
+Text snippet: If looking for a thrilling sci-fi cinematic ride , do n't settle for this Imposter .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 816:
+Text snippet: Not really bad so much as distasteful : We need kidnapping suspense dramas right now like we need doomsday thrillers .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 817:
+Text snippet: The result is a gaudy bag of stale candy , something from a Halloween that died .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 818:
+Text snippet: Davis ... is so enamored of her own creation that she ca n't see how insufferable the character is .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 819:
+Text snippet: The Man From Elysian Fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 820:
+Text snippet: Determined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 821:
+Text snippet: But this films lacks the passion required to sell the material .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 822:
+Text snippet: A solid film ... but more conscientious than it is truly stirring .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 823:
+Text snippet: There 's not enough here to justify the almost two hours .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 824:
+Text snippet: The X potion gives the quickly named Blossom , Bubbles and Buttercup supernatural powers that include extraordinary strength and laser-beam eyes , which unfortunately do n't enable them to discern fli
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 825:
+Text snippet: Perceptive in its vision of nascent industrialized world politics as a new art form , but far too clunky , didactic and saddled with scenes that seem simply an ill fit for this movie .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 826:
+Text snippet: Verbinski implements every hack-artist trick to give us the ooky-spookies .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 827:
+Text snippet: McConaughey 's fun to watch , the dragons are okay , not much fire in the script .
+True label: 1 | Predicted label: 1
+----------------------------------------
+Error 828:
+Text snippet: An unwise amalgam of Broadcast News and Vibes .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 829:
+Text snippet: Hit and miss as far as the comedy goes and a big ole ' miss in the way of story .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 830:
+Text snippet: Trite , banal , cliched , mostly inoffensive .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 831:
+Text snippet: Mattei is tiresomely grave and long-winded , as if circularity itself indicated profundity .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 832:
+Text snippet: It 's not original , and , robbed of the element of surprise , it does n't have any huge laughs in its story of irresponsible cops who love to play pranks .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 833:
+Text snippet: It offers little beyond the momentary joys of pretty and weightless intellectual entertainment .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 834:
+Text snippet: A sequence of ridiculous shoot - 'em - up scenes .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 835:
+Text snippet: Nothing in Waking Up in Reno ever inspired me to think of its inhabitants as anything more than markers in a screenplay .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 836:
+Text snippet: I 'm just too bored to care .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 837:
+Text snippet: Irwin is a man with enough charisma and audacity to carry a dozen films , but this particular result is ultimately held back from being something greater .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 838:
+Text snippet: Attempts by this ensemble film to impart a message are so heavy-handed that they instead pummel the audience .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 839:
+Text snippet: It all feels like a Monty Python sketch gone horribly wrong .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 840:
+Text snippet: Nervous breakdowns are not entertaining .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 841:
+Text snippet: Scorsese does n't give us a character worth giving a damn about .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 842:
+Text snippet: Like being trapped at a perpetual frat party ... How can something so gross be so boring ?
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 843:
+Text snippet: This is so bad .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 844:
+Text snippet: Prurient playthings aside , there 's little to love about this English trifle .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 845:
+Text snippet: This is a train wreck of an action film -- a stupefying attempt by the filmmakers to force-feed James Bond into the mindless XXX mold and throw 40 years of cinematic history down the toilet in favor o
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 846:
+Text snippet: The film flat lines when it should peak and is more missed opportunity and trifle than dark , decadent truffle .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 847:
+Text snippet: It 's played in the most straight-faced fashion , with little humor to lighten things up .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 848:
+Text snippet: The heavy-handed film is almost laughable as a consequence .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 849:
+Text snippet: At least one scene is so disgusting that viewers may be hard pressed to retain their lunch .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 850:
+Text snippet: A disappointment for those who love alternate versions of the Bard , particularly ones that involve deep fryers and hamburgers .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 851:
+Text snippet: The film tries too hard to be funny and tries too hard to be hip .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 852:
+Text snippet: The end result is a film that 's neither .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 853:
+Text snippet: Every nanosecond of the The New Guy reminds you that you could be doing something else far more pleasurable .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 854:
+Text snippet: Something like scrubbing the toilet .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 855:
+Text snippet: Or emptying rat traps .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 856:
+Text snippet: Or doing last year 's taxes with your ex-wife .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 857:
+Text snippet: Scooby Dooby Doo \/ And Shaggy too \/ You both look and sound great .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 858:
+Text snippet: \/ But Daphne , you 're too Buff \/ Fred thinks he 's tough \/ And Velma - wow , you 've lost weight !
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 859:
+Text snippet: Is the time really ripe for a warmed-over James Bond adventure , with a village idiot as the 007 clone ?
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 860:
+Text snippet: There 's enough melodrama in this Magnolia Primavera to make PTA proud yet director Muccino 's characters are less worthy of Puccini than they are of daytime television .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 861:
+Text snippet: However it may please those who love movies that blare with pop songs , young science fiction fans will stomp away in disgust .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 862:
+Text snippet: The humor is n't as sharp , the effects not as innovative , nor the story as imaginative as in the original .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 863:
+Text snippet: But it could have been worse .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 864:
+Text snippet: Some of their jokes work , but most fail miserably and in the end , Pumpkin is far more offensive than it is funny .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 865:
+Text snippet: Even horror fans will most likely not find what they 're seeking with Trouble Every Day ; the movie lacks both thrills and humor .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 866:
+Text snippet: comes off like a rejected ABC Afterschool Special , freshened up by the dunce of a Screenwriting 101 class .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 867:
+Text snippet: ... Designed to provide a mix of smiles and tears , `` Crossroads '' instead provokes a handful of unintentional howlers and numerous yawns .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 868:
+Text snippet: it seems to me the film is about the art of ripping people off without ever letting them consciously know you have done so
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 869:
+Text snippet: It 's just disappointingly superficial -- a movie that has all the elements necessary to be a fascinating , involving character study , but never does more than scratch the surface .
+True label: 0 | Predicted label: 0
+----------------------------------------
+Error 870:
+Text snippet: The title not only describes its main characters , but the lazy people behind the camera as well .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 871:
+Text snippet: Schaeffer has to find some hook on which to hang his persistently useless movies , and it might as well be the resuscitation of the middle-aged character .
+True label: 0 | Predicted label: 1
+----------------------------------------

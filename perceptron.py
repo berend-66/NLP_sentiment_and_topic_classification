@@ -199,6 +199,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "-l", "--learning_rate", type=float, default=0.1, help="Learning rate"
     )
+    parser.add_argument("--error_analysis", action="store_true",
+                        help="If set, print error examples from the dev set"
+    )
+    parser.add_argument(
+        "--save_test_predictions",
+        action="store_true",  # This makes it a flag that doesn't require a value
+        help="If set, save test predictions"
+    )
     args = parser.parse_args()
 
     data_type = DataType(args.data)
@@ -224,8 +232,25 @@ if __name__ == "__main__":
     )
     print(f"Development accuracy: {100 * dev_acc:.2f}%")
 
+    # Error Analysis Block
+    if args.error_analysis:
+        print("\nQualitative Error Analysis:")
+        errors = []
+        # Loop over each development example
+        for dp in dev_data:
+            pred = model.predict(dp)
+            if pred != dp.label:
+                errors.append((dp.text, dp.label, pred))
+        print(f"Total error examples: {len(errors)}")
+        # Print first 60 error examples with a snippet of the text
+        for i, (text, true_lbl, pred_lbl) in enumerate(errors[:60]):
+            print(f"Error {i+1}:")
+            print(f"Text snippet: {text[:200]}")
+            print(f"True label: {true_lbl} | Predicted label: {pred_lbl}")
+            print("-" * 40)
+
     # Evaluate on the test set and save predictions.
-    if True: # TODO: uncomment this when ready to save test predictions
+    if args.save_test_predictions:
         _ = model.evaluate(
             test_data,
             save_path=os.path.join(

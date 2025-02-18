@@ -1,0 +1,242 @@
+Qualitative Error Analysis:
+Total error examples: 225
+Error 1:
+Text snippet: A beguiling splash of pastel colors and prankish comedy from Disney .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 2:
+Text snippet: ( Lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 3:
+Text snippet: What 's surprising about Full Frontal is that despite its overt self-awareness , parts of the movie still manage to break past the artifice and thoroughly engage you .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 4:
+Text snippet: Whether you like rap music or loathe it , you ca n't deny either the tragic loss of two young men in the prime of their talent or the power of this movie .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 5:
+Text snippet: ... an otherwise intense , twist-and-turn thriller that certainly should n't hurt talented young Gaghan 's resume .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 6:
+Text snippet: There 's ... tremendous energy from the cast , a sense of playfulness and excitement that seems appropriate .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 7:
+Text snippet: It moves quickly , adroitly , and without fuss ; it does n't give you time to reflect on the inanity -- and the Cold War datedness -- of its premise .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 8:
+Text snippet: Woody Allen 's latest is an ambling , broad comedy about all there is to love -- and hate -- about the movie biz .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 9:
+Text snippet: A coda in every sense , The Pinochet Case splits time between a minute-by-minute account of the British court 's extradition chess game and the regime 's talking-head survivors .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 10:
+Text snippet: Like Mike is a winner for kids , and no doubt a winner for Lil Bow Wow , who can now add movies to the list of things he does well .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 11:
+Text snippet: You wo n't like Roger , but you will quickly recognize him .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 12:
+Text snippet: We know the plot 's a little crazy , but it held my interest from start to finish .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 13:
+Text snippet: Writer\/director Joe Carnahan 's grimy crime drama is a manual of precinct cliches , but it moves fast enough to cover its clunky dialogue and lapses in logic .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 14:
+Text snippet: While the ideas about techno-saturation are far from novel , they 're presented with a wry dark humor .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 15:
+Text snippet: Add yet another hat to a talented head , Clooney 's a good director .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 16:
+Text snippet: Broomfield turns his distinctive ` blundering ' style into something that could really help clear up the case .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 17:
+Text snippet: It 's refreshing to see a girl-power movie that does n't feel it has to prove anything .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 18:
+Text snippet: Huston nails both the glad-handing and the choking sense of hollow despair .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 19:
+Text snippet: The film is beautifully mounted , but , more to the point , the issues are subtly presented , managing to walk a fine line with regard to the question of Joan 's madness .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 20:
+Text snippet: Generally , Clockstoppers will fulfill your wildest fantasies about being a different kind of time traveler , while happily killing 94 minutes .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 21:
+Text snippet: Not only are the special effects and narrative flow much improved , and Daniel Radcliffe more emotionally assertive this time around as Harry , but the film conjures the magic of author J.K. Rowling '
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 22:
+Text snippet: Jaglom ... put ( s ) the audience in the privileged position of eavesdropping on his characters
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 23:
+Text snippet: Crackerjack entertainment -- nonstop romance , music , suspense and action .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 24:
+Text snippet: The acting , costumes , music , cinematography and sound are all astounding given the production 's austere locales .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 25:
+Text snippet: Far more imaginative and ambitious than the trivial , cash-in features Nickelodeon has made from its other animated TV series .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 26:
+Text snippet: The very definition of the ` small ' movie , but it is a good stepping stone for director Sprecher .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 27:
+Text snippet: An intriguing cinematic omnibus and round-robin that occasionally is more interesting in concept than in execution .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 28:
+Text snippet: A movie that successfully crushes a best selling novel into a timeframe that mandates that you avoid the Godzilla sized soda .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 29:
+Text snippet: Bogdanovich tantalizes by offering a peep show into the lives of the era 's creme de la celluloid .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 30:
+Text snippet: People cinema at its finest .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 31:
+Text snippet: The performances take the movie to a higher level .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 32:
+Text snippet: Manages to transcend the sex , drugs and show-tunes plot into something far richer .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 33:
+Text snippet: Dense with characters and contains some thrilling moments .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 34:
+Text snippet: Reign of Fire looks as if it was made without much thought -- and is best watched that way .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 35:
+Text snippet: We root for ( Clara and Paul ) , even like them , though perhaps it 's an emotion closer to pity .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 36:
+Text snippet: ( D ) oes n't bother being as cloying or preachy as equivalent evangelical Christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 37:
+Text snippet: If your taste runs to ` difficult ' films you absolutely ca n't miss it .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 38:
+Text snippet: If you can stomach the rough content , it 's worth checking out for the performances alone .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 39:
+Text snippet: ... Mafia , rap stars and hood rats butt their ugly heads in a regurgitation of cinematic violence that gives brutal birth to an unlikely , but likable , hero . '
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 40:
+Text snippet: Falls neatly into the category of Good Stupid Fun .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 41:
+Text snippet: Sade is an engaging look at the controversial eponymous and fiercely atheistic hero .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 42:
+Text snippet: The subtle strength of `` Elling '' is that it never loses touch with the reality of the grim situation .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 43:
+Text snippet: The format gets used best ... to capture the dizzying heights achieved by motocross and BMX riders , whose balletic hotdogging occasionally ends in bone-crushing screwups .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 44:
+Text snippet: Has a lot of the virtues of Eastwood at his best .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 45:
+Text snippet: Though it 's become almost redundant to say so , major kudos go to Leigh for actually casting people who look working-class .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 46:
+Text snippet: You do n't have to know about music to appreciate the film 's easygoing blend of comedy and romance .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 47:
+Text snippet: Affleck and Jackson are good sparring partners .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 48:
+Text snippet: One of creepiest , scariest movies to come along in a long , long time , easily rivaling Blair Witch or The Others .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 49:
+Text snippet: No sophomore slump for director Sam Mendes , who segues from Oscar winner to Oscar-winning potential with a smooth sleight of hand .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 50:
+Text snippet: You will emerge with a clearer view of how the gears of justice grind on and the death report comes to share airtime alongside the farm report .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 51:
+Text snippet: This riveting World War II moral suspense story deals with the shadow side of American culture : racial prejudice in its ugly and diverse forms .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 52:
+Text snippet: For the most part , it 's a work of incendiary genius , steering clear of knee-jerk reactions and quick solutions .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 53:
+Text snippet: In all , this is a watchable movie that 's not quite the memorable experience it might have been .
+True label: 0 | Predicted label: 1
+----------------------------------------
+Error 54:
+Text snippet: My thoughts were focused on the characters .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 55:
+Text snippet: For anyone unfamiliar with pentacostal practices in general and theatrical phenomenon of Hell Houses in particular , it 's an eye-opener .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 56:
+Text snippet: It seems like I have been waiting my whole life for this movie and now I ca n't wait for the sequel .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 57:
+Text snippet: An operatic , sprawling picture that 's entertainingly acted , magnificently shot and gripping enough to sustain most of its 170-minute length .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 58:
+Text snippet: Good film , but very glum .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 59:
+Text snippet: It haunts , horrifies , startles and fascinates ; it is impossible to look away .
+True label: 1 | Predicted label: 0
+----------------------------------------
+Error 60:
+Text snippet: It has charm to spare , and unlike many romantic comedies , it does not alienate either gender in the audience .
+True label: 1 | Predicted label: 0
+----------------------------------------
