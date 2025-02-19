@@ -241,13 +241,19 @@ if __name__ == "__main__":
             pred = model.predict(dp)
             if pred != dp.label:
                 errors.append((dp.text, dp.label, pred))
-        print(f"Total error examples: {len(errors)}")
-        # Print first 60 error examples with a snippet of the text
-        for i, (text, true_lbl, pred_lbl) in enumerate(errors[:60]):
-            print(f"Error {i+1}:")
-            print(f"Text snippet: {text[:200]}")
-            print(f"True label: {true_lbl} | Predicted label: {pred_lbl}")
-            print("-" * 40)
+        
+        # Write error analysis to file
+        error_file_path = os.path.join("errors", f"errors_{args.data}.txt")
+        with open(error_file_path, "w", encoding="utf-8") as f:
+            f.write(f"Total error examples: {len(errors)}\n\n")
+            # Write first 60 error examples with a snippet of the text
+            for i, (text, true_lbl, pred_lbl) in enumerate(errors[:60]):
+                f.write(f"Error {i+1}:\n")
+                f.write(f"Text snippet: {text[:200]}\n")
+                f.write(f"True label: {true_lbl} | Predicted label: {pred_lbl}\n")
+                f.write("-" * 40 + "\n")
+        
+        print(f"Error analysis saved to {error_file_path}")
 
     # Evaluate on the test set and save predictions.
     if args.save_test_predictions:

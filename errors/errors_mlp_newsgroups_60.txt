@@ -1,0 +1,949 @@
+Found 2263 errors 
+--------------------------------------------------------------------------------
+Error 1/2263:
+Text snippet: From: tim@kimba.catt.citri.edu.au (Tim Liddelow)
+Subject: Installing MIT X11R5 on Apollo
+Organization: CATT Centre at CITRI, Melbourne, Australia
+Lines: 14
+
+Can any Apollo GURUS out there let me know of their experiences building MIT X11R5,
+with or without GCC 2.3.3.  In particular, is there anything I should watch out for.
+
+Thanks in advance
+
+--tim 
+_______________________________________________...
+True label: comp.windows.x
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 2/2263:
+Text snippet: From: petrack@vnet.IBM.COM
+Subject: disabling all power management interrupts
+Reply-To: petrack@vnet.IBM.COM
+Disclaimer: This posting may contain no views at all
+News-Software: Usenet 3.1
+Lines: 21
+
+Could someone please do one of the following:
+1. Point to an init that allows me to turn off power management on my
+   Duo 210.
+1. Write an init that would allow me to turn off ALL power management on
+...
+True label: comp.sys.mac.hardware
+Predicted label: sci space
+--------------------------------------------------------------------------------
+Error 3/2263:
+Text snippet: From: Lars.Jorgensen@p7.syntax.bbs.bad.se (Lars Jorgensen)
+Subject: Externel processes for 3D Studio
+Reply-To: Lars.Jorgensen@p7.syntax.bbs.bad.se (Lars Jorgensen)
+Distribution: world
+Organization: Nr. 5 p} NatR}b 
+OD-Comment-To: Internet_Gateway
+Lines: 13
+
+To:All
+
+Hi,
+
+Does anybody have the source code to the externel processes that comes with 3D 
+Studio, and mabe som kind of DOC for writing the ...
+True label: comp.graphics
+Predicted label: rec motorcycles
+--------------------------------------------------------------------------------
+Error 4/2263:
+Text snippet: From: dnh@mfltd.co.uk (Des Herriott)
+Subject: XDM/xsession woes
+Keywords: xdm, xterm
+Lines: 22
+Reply-To: dnh@mfltd.co.uk
+Organization: Micro Focus Ltd.
+X-Newsreader: mxrn 6.18-3
+
+
+I've just managed to get xdm running from an NCR 3000 (an SVR4 486 box
+running XFree86 1.2) to my NCD XDisplay.  It's pretty much working, but
+I'm encountering a weird error.  I'm attempting to start an xterm from
+my .xs...
+True label: comp.windows.x
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 5/2263:
+Text snippet: From: willisw@willisw.ENG.CLEMSON.edu (Bill Willis)
+Subject: Re: HELP! Installing second IDE drive
+Organization: Engineering Services, Clemson University
+Lines: 55
+
+In article <1qn627$iv@darwin.sura.net> wbarnes@sura.net (Bill Barnes) writes:
+
+>Recently my cousin got a second internal IDE drive (a Seagate 210MB,
+>I can look up the model number if it's important) and I've been
+>trying to help him i...
+True label: comp.sys.ibm.pc.hardware
+Predicted label: computer systems ibm pc hardware
+--------------------------------------------------------------------------------
+Error 6/2263:
+Text snippet: From: deuelpm@craft.camp.clarkson.edu (Hobbit)
+Subject: Re: White House Public Encryption Management Fact Sheet
+Nntp-Posting-Host: logic.clarkson.edu
+Organization: Clarkson University
+Distribution: na
+Lines: 26
+
+
+I have a question about digital communications encryption:
+
+	The Fact Sheet mentioned encryption/decryption microcircuitry with 
+special "keys" for law enforcement for wire tapping purpos...
+True label: sci.crypt
+Predicted label: talk politics guns
+--------------------------------------------------------------------------------
+Error 7/2263:
+Text snippet: From: parr@acs.ucalgary.ca (Charles Parr)
+Subject: Dumb options list
+Nntp-Posting-Host: acs3.acs.ucalgary.ca
+Organization: The University of Calgary, Alberta
+Lines: 16
+
+The idea here is to list pointless options. You know, stuff you
+get on a car that has no earthly use?
+
+
+1) Power windows
+
+
+
+Add as you wish...
+
+Regards, Charles
+-- 
+Within the span of the last few weeks I have heard elements of
+sep...
+True label: rec.autos
+Predicted label: rec sport baseball
+--------------------------------------------------------------------------------
+Error 8/2263:
+Text snippet: From: cy779@cleveland.Freenet.Edu (Anas Omran)
+Subject: Re: Israeli Terrorism
+Reply-To: cy779@cleveland.Freenet.Edu (Anas Omran)
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 18
+NNTP-Posting-Host: slc4.ins.cwru.edu
+
+
+In a previous article, adam@endor.uucp (Adam Shostack) says:
+
+>In article <2BDAD779.24910@news.service.uci.edu> tclock@orion.oac.uci.edu (Tim Clock) writes...
+True label: talk.politics.mideast
+Predicted label: rec sport hockey
+--------------------------------------------------------------------------------
+Error 9/2263:
+Text snippet: From: lorne@sun.com (Lorne R. Johnson - Sun IC Region SE)
+Subject: WARRIORS TICKETS FOR SALE
+Organization: Sun Microsystems, Inc.
+Lines: 22
+Distribution: ca
+Reply-To: lorne@sun.com
+NNTP-Posting-Host: normajean.west.sun.com
+
+
+   *****************************
+   * WARRIORS TICKETS FOR SALE *
+   *****************************
+
+I have 2 tickets that I can't use (Last pair this year).
+
+Section 109, Row ...
+True label: misc.forsale
+Predicted label: rec autos
+--------------------------------------------------------------------------------
+Error 10/2263:
+Text snippet: From: pharvey@quack.kfu.com (Paul Harvey)
+Subject: Re: Sabbath Admissions 5of5
+Organization: The Duck Pond public unix: +1 408 249 9630, log in as 'guest'.
+Lines: 155
+
+I wrote in response to dlecoint@garnet.acns.fsu.edu (Darius_Lecointe):
+
+>[It's not clear how much more needs to be said other than the FAQ.  I
+>think Paul's comments on esteeming one day over another (Rom 14) is
+>probably all that n...
+True label: soc.religion.christian
+Predicted label: talk politics misc
+--------------------------------------------------------------------------------
+Error 11/2263:
+Text snippet: From: prb@access.digex.com (Pat)
+Subject: Re: Jemison on Star Trek
+Organization: Express Access Online Communications USA
+Lines: 14
+NNTP-Posting-Host: access.digex.net
+
+In article <1993Apr22.214735.22733@Princeton.EDU> phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser) writes:
+>A transporter operator!?!?  That better be one important transport.  Usually  
+>it is a nameless ensign who does th...
+True label: sci.space
+Predicted label: computer systems mac hardware
+--------------------------------------------------------------------------------
+Error 12/2263:
+Text snippet: From: emarsh@hernes-sun.Eng.Sun.COM (Eric Marsh)
+Subject: Re: After 2000 years, can we say that Christian Morality is
+Organization: Sun
+Lines: 63
+NNTP-Posting-Host: hernes-sun
+
+In article <1qjahh$mrs@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
+>In article <pww-140493214334@spac-at1-59.rice.edu> pww@spacsun.rice.edu (Peter Walker) writes:
+>#In article <1qie61$fkt@horus.ap.mchp...
+True label: talk.religion.misc
+Predicted label: talk religion misc
+--------------------------------------------------------------------------------
+Error 13/2263:
+Text snippet: From: betz@gozer.idbsu.edu (Andrew Betz)
+Subject: Re: My Gun is like my....
+Nntp-Posting-Host: gozer
+Organization: SigSauer Fan Club 
+Lines: 84
+
+In article <1993Apr16.194708.13273@vax.oxford.ac.uk> jaj@vax.oxford.ac.uk writes:
+>What all you turkey pro-pistol and automatic weapons fanatics don't seem to
+>realize is that the rest of us *laugh* at you. You don't make me angry, you
+>just make me chuck...
+True label: talk.politics.guns
+Predicted label: sci med
+--------------------------------------------------------------------------------
+Error 14/2263:
+Text snippet: From: cmenzel@kbssun1.tamu.edu (Chris Menzel)
+Subject: Re: Procomm Plus for windows problems....
+Organization: Texas A&M University, College Station, TX
+Lines: 25
+NNTP-Posting-Host: kbssun1.tamu.edu
+X-Newsreader: TIN [version 1.1 PL8]
+
+Jeff Meyers (jmeyers@ecst.csuchico.edu) wrote:
+: In article <1qkqrhINNobc@matt.ksu.ksu.edu> kentiler@matt.ksu.ksu.edu (Kent P. Iler) writes:
+: .
+: .
+: >I have a fri...
+True label: comp.os.ms-windows.misc
+Predicted label: sci crypt
+--------------------------------------------------------------------------------
+Error 15/2263:
+Text snippet: From: daveb@pogo.wv.tek.com (Dave Butler)
+Subject: Re: NEW BIBLICAL CONTRADICTIONS [Fallaciously] ANSWERED (Judas)
+Organization: Tektronix, Inc., Wilsonville,  OR.
+Lines: 82
+
+I produced an error last week about CHORION:
+
+>> (By the way Mr DeCenso, you really should have looked in the index of your
+>> Bauer-Arndt-Gingrich Greek lexicon.  You would have found that the word in
+>> Acts for "lot" is "k...
+True label: talk.religion.misc
+Predicted label: computer windows x
+--------------------------------------------------------------------------------
+Error 16/2263:
+Text snippet: From: louray@seas.gwu.edu (Michael Panayiotakis)
+Subject: Re: More Cool BMP files??
+Organization: George Washington University
+Lines: 15
+
+> 
+>I downloaded the CompuServe GIF of the month.  A raytraced image of
+>a golf ball next to a hole.  Very nice, 640x480x256 bitmap, easily
+>converted to a Windows BMP.  If anyone wants, I could upload a copy
+>on Cica...
+>
+
+Please do...and let us know specifics....
+True label: comp.os.ms-windows.misc
+Predicted label: sci crypt
+--------------------------------------------------------------------------------
+Error 17/2263:
+Text snippet: From: strnlght@netcom.com (David Sternlight)
+Subject: Re: Fighting the Clipper Initiative
+Organization: DSI/USCRPAC
+Lines: 32
+
+In article <1r0nov$p3e@access.digex.net> steve-b@access.digex.com (Steve
+Brinich) writes:
+
+
+>
+> 1. American manufacturers peddling Cripple Chips with a secret untested
+>     algorithm whose keys are held by people with a history of untrustworthy
+>     behavoir, or
+>
+
+er, e...
+True label: sci.crypt
+Predicted label: talk politics guns
+--------------------------------------------------------------------------------
+Error 18/2263:
+Text snippet: From: Bill.Kayser@delft.SGp.slb.COM (Bill Kayser)
+Subject: Re: TeleUse, UIM/X, and C++
+Article-I.D.: parsival.199304060629.AA00339
+Organization: The Internet
+Lines: 25
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xpert@expo.lcs.mit.edu
+Cc: Bill.Kayser@delft.sgp.slb.com
+
+
+> 
+> Does anyone have any good ideas on how to integrate C++ code elegantly
+> with TeleUse, UIM/X / Interface Architect generated co...
+True label: comp.windows.x
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 19/2263:
+Text snippet: From: oconnor@eng.umd.edu (Mark O'Connor)
+Subject: Re: Question about helmets
+Organization: University of Maryland, College Park, MD
+Lines: 10
+Distribution: world
+NNTP-Posting-Host: coffee.eng.umd.edu
+Originator: oconnor@coffee.eng.umd.edu
+
+
+On the other side of the fence, I owned a Bieffe off-road helmet.
+Took what I would consider a minor fall, and had visible damage
+to the shell.  Yes, the helm...
+True label: rec.motorcycles
+Predicted label: rec sport baseball
+--------------------------------------------------------------------------------
+Error 20/2263:
+Text snippet: From: zakir@leland.Stanford.EDU (Zakir Sahul)
+Subject: Inflation in car prices
+Organization: DSG, Stanford University, CA 94305, USA
+Distribution: usa
+Lines: 5
+
+
+Anyone have figures or pointers to references about 
+how fast/much car prices have gone up in the last decade?
+
+Thanks.
+...
+True label: rec.autos
+Predicted label: rec sport baseball
+--------------------------------------------------------------------------------
+Error 21/2263:
+Text snippet: From: speedy@engr.latech.edu (Speedy Mercer)
+Subject: Re: So, do any XXXX, I mean police officers read this stuff?
+Organization: Louisiana Tech University
+Lines: 22
+NNTP-Posting-Host: bhm116e-spc.engr.latech.edu
+
+In article <1993Apr20.163629.29153@iscnvx.lmsc.lockheed.com> jrlaf@sgi502.msd.lmsc.lockheed.com (J. R. Laferriere) writes:
+
+>I was just wondering if there were any law officers that read ...
+True label: rec.motorcycles
+Predicted label: talk politics mideast
+--------------------------------------------------------------------------------
+Error 22/2263:
+Text snippet: From: degroff@netcom.com (21012d)
+Subject: Re: Venus Lander for Venus Conditions.
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 8
+
+
+  I doubt there are good prospects for  a self armoring system
+for venus surface conditions (several hundred degrees, very high
+pressure of CO2, possibly sulfuric and nitric acids or oxides
+but it is a notion to consider for ou...
+True label: sci.space
+Predicted label: computer os microsoft windows misc
+--------------------------------------------------------------------------------
+Error 23/2263:
+Text snippet: From: klute@tommy.INformatik.uni-dortmund.DE (Rainer Klute)
+Subject: Imake support for xmosaic
+Organization: CS Department, Dortmund University, Germany
+Lines: 20
+NNTP-Posting-Host: enterpoop.mit.edu
+To: xannounce@expo.lcs.mit.edu
+
+
+	Imake support for xmosaic
+	=========================
+
+Although xmosaic is a great program in general, it unfortunately comes
+without Imake support. So I created one. ...
+True label: comp.windows.x
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 24/2263:
+Text snippet: From: henry@zoo.toronto.edu (Henry Spencer)
+Subject: Re: Public-domain circuits in commercial applications
+Organization: U of Toronto Zoology
+Lines: 31
+
+In article <1993Apr13.164924.2606@wuecl.wustl.edu> dp@cec1.wustl.edu (David Prutchi) writes:
+>Can circuits found in electronics magazines (with no patent disclaimer)
+>be used legally as subcircuits of a commercial unit ?
+
+There are two issues here...
+True label: sci.electronics
+Predicted label: soc religion christian
+--------------------------------------------------------------------------------
+Error 25/2263:
+Text snippet: From: ak296@yfn.ysu.edu (John R. Daker)
+Subject: Re: Shipping a bike
+Organization: St. Elizabeth Hospital, Youngstown, OH
+Lines: 14
+Reply-To: ak296@yfn.ysu.edu (John R. Daker)
+NNTP-Posting-Host: yfn.ysu.edu
+
+
+In a previous article, manish@uclink.berkeley.edu (Manish Vij) says:
+
+>
+>Can someone recommend how to ship a motorcycle from San Francisco
+>to Seattle?  And how much might it cost?
+
+Hmmmmmm.....
+True label: rec.motorcycles
+Predicted label: talk politics mideast
+--------------------------------------------------------------------------------
+Error 26/2263:
+Text snippet: From: flax@frej.teknikum.uu.se (Jonas Flygare)
+Subject: Re: 18 Israelis murdered in March
+Organization: Dept. Of Control, Teknikum, Uppsala
+Lines: 184
+	<FLAX.93Apr4151411@frej.teknikum.uu.se>
+	<1993Apr5.125419.8157@thunder.mcrcim.mcgill.edu>
+NNTP-Posting-Host: frej.teknikum.uu.se
+In-reply-to: hasan@McRCIM.McGill.EDU's message of Mon, 5 Apr 93 12:54:19 GMT
+
+In article <1993Apr5.125419.8157@thunder....
+True label: talk.politics.mideast
+Predicted label: rec sport hockey
+--------------------------------------------------------------------------------
+Error 27/2263:
+Text snippet: From: mmb@lamar.ColoState.EDU (Michael Burger)
+Subject: More TV Info
+Distribution: na
+Nntp-Posting-Host: lamar.acns.colostate.edu
+Organization: Colorado State University, Fort Collins, CO  80523
+Lines: 36
+
+United States Coverage:
+Sunday April 18
+  N.J./N.Y.I. at Pittsburgh - 1:00 EDT to Eastern Time Zone
+  ABC - Gary Thorne and Bill Clement
+
+  St. Louis at Chicago - 12:00 CDT and 11:00 MDT - to Ce...
+True label: rec.sport.hockey
+Predicted label: atheism
+--------------------------------------------------------------------------------
+Error 28/2263:
+Text snippet: From: terziogl@ee.rochester.edu (Esin Terzioglu)
+Subject: Re: ARMENIA SAYS IT COULD SHOOT DOWN TURKISH PLANES
+Organization: Univ of Rochester, College of Engineering and Applied Science
+Lines: 33
+
+In article <1993Apr19.155856.8260@kpc.com> henrik@quayle.kpc.com  writes:
+>In article <1993Apr17.185118.10792@ee.rochester.edu>, terziogl@ee.rochester.edu (Esin Terzioglu) writes:
+>|> In article <1993Apr...
+True label: talk.politics.mideast
+Predicted label: rec sport hockey
+--------------------------------------------------------------------------------
+Error 29/2263:
+Text snippet: From: ohayon@jcpltyo.JCPL.CO.JP (Tsiel Ohayon)
+Subject: How many israeli soldiers does it take to kill a 5 yr old child?
+Organization: James Capel Pacific Limited, Tokyo Japan
+Lines: 63
+
+JLE the Great writes:
+
+[JLE] Q: How many occupying israeli soldiers (terrorists) does it
+[JLE] take to kill a 5 year old native child?
+[JLE] A: Four
+[JLE] Two fasten his arms, one shoots in the face,
+[JLE] and one...
+True label: talk.politics.mideast
+Predicted label: sci electronics
+--------------------------------------------------------------------------------
+Error 30/2263:
+Text snippet: Subject: STARGARDTS DISEASE
+From: kmcvay@oneb.almanac.bc.ca (Ken Mcvay)
+Organization: The Old Frog's Almanac
+Keywords: stargardts
+Lines: 12
+
+Thanks to aldridge@netcom.com, I now know a bit more about Stargardt's
+disease, aka juvenile macular distrophy, but I would like to learn more.
+
+First, what is the general prognosis - is blindness the result?
+Second, what treatments, if any, are available?
+
+
+...
+True label: sci.med
+Predicted label: sci electronics
+--------------------------------------------------------------------------------
+Error 31/2263:
+Text snippet: From: u96_averba@vaxc.stevens-tech.edu
+Subject: Arythmia
+Lines: 11
+Organization: Stevens Institute Of Technology
+
+I don't know if anyone knows about this topic: electrical heart 
+failure. One of my friends has had to go to the doctor because
+he had chest pains. The Doc said it was Arythmia. So he had to
+go to a new york hospital for a lot of money to get treated. His
+doctors said that he could die...
+True label: sci.med
+Predicted label: sci electronics
+--------------------------------------------------------------------------------
+Error 32/2263:
+Text snippet: Subject: Re: Cirrus Logic 5426 Graph Card
+From: gardner_a@kosmos.wcc.govt.nz (andy gardner)
+Reply-To: gardner_a@kosmos.wcc.govt.nz
+Organization: Wellington City Council (Public Access), Wgtn, Nz
+NNTP-Posting-Host: kosmos.wcc.govt.nz
+Lines: 37
+
+In article <1qms3c$37t@news.cs.tu-berlin.de>, wong@cs.tu-berlin.de (Wolfgang Jung) writes:
+>After setting up Windows for using my Cirrus Logic 5426 VLB Grap...
+True label: comp.os.ms-windows.misc
+Predicted label: sci crypt
+--------------------------------------------------------------------------------
+Error 33/2263:
+Text snippet: From: dyer@spdcc.com (Steve Dyer)
+Subject: Re: food-related seizures?
+Organization: S.P. Dyer Computer Consulting, Cambridge MA
+
+My comments about the Feingold Diet have no relevance to your
+daughter's purported FrostedFlakes-related seizures.  I can't imagine
+why you included it.
+
+-- 
+Steve Dyer
+dyer@ursa-major.spdcc.com aka {ima,harvard,rayssd,linus,m2c}!spdcc!dyer
+...
+True label: sci.med
+Predicted label: sci electronics
+--------------------------------------------------------------------------------
+Error 34/2263:
+Text snippet: Nntp-Posting-Host: surt.ifi.uio.no
+From: Thomas Parsli <thomasp@ifi.uio.no>
+Subject: Re: My Gun is like my American Express Card
+In-Reply-To: viking@iastate.edu (Dan Sorenson)'s message of Mon, 19 Apr 1993
+        08:52:42 GMT
+Organization: Dept. of Informatics, University of Oslo, Norway
+        <1qjmnuINNlmd@clem.handheld.com>
+        <CMM.0.90.2.734911642.thomasp@surt.ifi.uio.no>
+        <vikin...
+True label: talk.politics.guns
+Predicted label: sci med
+--------------------------------------------------------------------------------
+Error 35/2263:
+Text snippet: From: joshua@cpac.washington.edu (Joshua Geller)
+Subject: Re: Rosicrucian Order(s) ?!
+Organization: Institute for the Study of Ancient Science
+Lines: 29
+Distribution: world
+	<sandvik-170493104312@sandvik-kent.apple.com>
+	<1qppef$i5b@usenet.INS.CWRU.Edu>
+NNTP-Posting-Host: bailey.cpac.washington.edu
+In-reply-to: ch981@cleveland.Freenet.Edu's message of 17 Apr 1993 20:31:11 GMT
+
+
+In article <1qppef$...
+True label: talk.religion.misc
+Predicted label: computer windows x
+--------------------------------------------------------------------------------
+Error 36/2263:
+Text snippet: From: Center for Policy Research <cpr@igc.apc.org>
+Subject: From Israeli press. TORTURE.
+Nf-ID: #N:cdp:1483500344:000:3833
+Nf-From: cdp.UUCP!cpr    Apr 16 16:50:00 1993
+Lines: 78
+
+
+From: Center for Policy Research <cpr>
+Subject: From Israeli press. TORTURE.
+
+/* Written  4:41 pm  Apr 16, 1993 by cpr@igc.apc.org in igc:mideast.forum */
+/* ---------- "From Israeli press. TORTURE." ---------- */
+FROM ...
+True label: talk.politics.mideast
+Predicted label: rec sport hockey
+--------------------------------------------------------------------------------
+Error 37/2263:
+Text snippet: Subject: Re: Exploding TV!
+From: xhan@uceng.uc.edu (Xiaoping Han)
+Distribution: usa
+Organization: University of Cincinnati
+Lines: 12
+
+In article <1qk4hj$qos@vtserf.cc.vt.edu> prasad@vtaix.cc.vt.edu (Prasad Ramakrishna) writes:
+
+>... Why would the picture tube explode or even smoke?
+
+It's not the picture tube. More likely the flyback. Emerson? can't admire.
+Han
+
+>Prasad
+>prasadr@vtvm1.cc.vt.edu
+>
+
+...
+True label: sci.electronics
+Predicted label: soc religion christian
+--------------------------------------------------------------------------------
+Error 38/2263:
+Text snippet: From: dpalmer@mcnc.org (W. Dev Palmer)
+Subject: Re: Wanted: A to D hardware for a PC
+Article-I.D.: mcnc.1993Apr6.220327.4042
+Organization: MCNC Center for Microelectronics, RTP, NC
+Lines: 34
+
+In article <1993Apr6.053736.23113@doug.cae.wisc.edu> kolstad@cae.wisc.edu (Joel Kolstad) writes:
+>>In <3889@ncr-mpd.FtCollinsCO.NCR.COM> Brad Wright writes:
+>>
+>>>	If you know much about PC's (IBM comp) you m...
+True label: sci.electronics
+Predicted label: soc religion christian
+--------------------------------------------------------------------------------
+Error 39/2263:
+Text snippet: Subject: re: WINBENCH 3.11 help -- graphics comparison?!?
+From: srg3sir@grv.grace.cri.nz
+Distribution: world
+Organization: Industrial Research Ltd., New Zealand.
+NNTP-Posting-Host: rmayston.grace.cri.nz
+Lines: 25
+
+
+
+In article <C4zoGD.C56@news.udel.edu> swyatt@bach.udel.edu (Stephen L Wyatt) writes:
+>I have a question about WINBENCH (pc labs thing) 3.11..
+>
+>I have a 386/33 and a Ahead B (512k) ca...
+True label: comp.os.ms-windows.misc
+Predicted label: sci crypt
+--------------------------------------------------------------------------------
+Error 40/2263:
+Text snippet: From: jim.wray@yob.sccsi.com (Jim Wray)
+Subject: CNN for sale
+Organization: Ye Olde Bailey BBS - Houston, TX - 713-520-1569
+Lines: 18
+Reply-To: jim.wray@yob.sccsi.com (Jim Wray)
+NNTP-Posting-Host: cs.utexas.edu
+
+
+ Bill Vojak:
+
+ BV>I read in the paper yestarday that Ted Turner wants to "trim" down
+ BV>his media holdings and is putting CNN up for sale.  The #1 potential
+ BV>bidder?  TIME/Warner of c...
+True label: talk.politics.guns
+Predicted label: sci med
+--------------------------------------------------------------------------------
+Error 41/2263:
+Text snippet: From: graham@cs.washington.edu (Stephen Graham)
+Subject: Re: Some more about gun control...
+Organization: Computer Science & Engineering, U. of Washington, Seattle
+
+In article <1qicep$obf@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:
+>In article <1993Apr14.232806.18970@beaver.cs.washington.edu>, graham@cs.washington.edu (Stephen Graham) writes:
+>> In article <1qhpcn$b12@transfer...
+True label: talk.politics.guns
+Predicted label: sci med
+--------------------------------------------------------------------------------
+Error 42/2263:
+Text snippet: From: ant@palm21.cray.com (Tony Jones)
+Subject: Re: Insurance discount
+Lines: 12
+Nntp-Posting-Host: palm21
+Organization: Cray Research Inc, Eagan, MN
+X-Newsreader: TIN [version 1.1 PL6]
+
+Erik Asphaug x2773 (asphaug@lpl.arizona.edu) wrote:
+: Unless... some insurance agent offers a multi-vehicle discount.  They
+: do this all the time for cars, assuming that you're only capable of 
+
+Progressive offer...
+True label: rec.motorcycles
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 43/2263:
+Text snippet: From: thf2@kimbark.uchicago.edu (Ted Frank)
+Subject: Re: MLB Standings and Scores for Fri., Apr. 16th, 1993
+Keywords: mlb, 04.16
+Reply-To: thf2@midway.uchicago.edu
+Organization: University of Chicago
+Lines: 23
+
+In article <1qmj6h$m5h@agate.berkeley.edu> jtchern@ocf.berkeley.edu (Joseph Hernandez) writes:
+>Houston Astros		1		Seattle Mariners	1
+>Montreal Expos		2		Toronto Blue Jays	3
+>New York Mets	...
+True label: rec.sport.baseball
+Predicted label: misc forsale
+--------------------------------------------------------------------------------
+Error 44/2263:
+Text snippet: From: sera@zuma.UUCP (Serdar Argic)
+Subject: In Nazi Germany, Armenians were considered to be an Aryan race and...
+Reply-To: sera@zuma.UUCP (Serdar Argic)
+Distribution: world
+Lines: 41
+
+In article <2BAC23FF.25215@news.service.uci.edu> tclock@orion.oac.uci.edu (Tim Clock) writes:
+
+>There was no such letter in the Chronicle on that date, or at any other time.
+
+Is this a figment of your imagination? ...
+True label: talk.politics.mideast
+Predicted label: rec sport hockey
+--------------------------------------------------------------------------------
+Error 45/2263:
+Text snippet: From: gwalker@rtfm.mlb.fl.us (Grayson Walker)
+Subject: Re: Changing oil by self.
+Keywords: oily to bed 
+Organization: A.S.I., Merritt Island, Florida 
+Distribution: usa
+Lines: 9
+
+Ah, yes, the big chunks down in the sump. The solution is simple. Sort of
+like the advice my Aunt always gave -- never scratch your ear with anything
+except your elbow.
+
+If you have pieces of ring, con rods, valve heads o...
+True label: rec.autos
+Predicted label: rec sport baseball
+--------------------------------------------------------------------------------
+Error 46/2263:
+Text snippet: From: cs1442aq@news.uta.edu (cs1442aq)
+Subject: Ryam out for 2-5 weeks!!
+Organization: University of Texas at Arlington
+Lines: 4
+
+Nolan Ryan has torn cartlidge inhis right knee.  Is having surgery and
+is expected to miss 2-5 weeks.  
+-- 
+
+...
+True label: rec.sport.baseball
+Predicted label: atheism
+--------------------------------------------------------------------------------
+Error 47/2263:
+Text snippet: From: kmelcher@rafael.Arco.COM (Kenneth Melcher)
+Subject: Re: The 1964 Phillies: deja vu?
+Reply-To: kmelcher@rafael.Arco.COM
+Organization: ARCO Exploration and Production Technology
+Lines: 3
+
+My dad has always blamed the Phillies collapse in '64 on me...  On Sept 21,  1964,  the Phillies had something like a 9 game lead with 12 to play.  I was born on Sept 21,  1964.  The Phils proceeded to lose s...
+True label: rec.sport.baseball
+Predicted label: misc forsale
+--------------------------------------------------------------------------------
+Error 48/2263:
+Text snippet: From: ziegenfE@moravian.edu (Eric W. Ziegenfus)
+Subject: Re: PROBLEM: Running AIX info from a Sun rlogin shell.
+Lines: 36
+Nntp-Posting-Host: batman
+
+In <1r74bcINN6ei@ome.sps.mot.com> wcl@risc.sps.mot.com (Wayne Long) writes:
+
+
+>  When I run our RS6000's "info" utility through a remote login
+>  shell (rlogin) from my Sun Sparc 1+, I can no longer type
+>  lower case in any of info's window prompt's....
+True label: comp.windows.x
+Predicted label: computer graphics
+--------------------------------------------------------------------------------
+Error 49/2263:
+Text snippet: From: kludge@grissom.larc.nasa.gov (Scott Dorsey)
+Subject: Re: Need to find out number to a phone line
+Organization: NASA Langley Research Center and Reptile Farm
+Lines: 16
+NNTP-Posting-Host: grissom.larc.nasa.gov
+
+In article <20756.2bd16dea@ecs.umass.edu> alee@ecs.umass.edu writes:
+>
+>Greetings!
+>      
+>        Situation:  I have a phone jack mounted on a wall.  I don't
+>                    know...
+True label: sci.electronics
+Predicted label: soc religion christian
+--------------------------------------------------------------------------------
+Error 50/2263:
+Text snippet: From: bobbe@vice.ICO.TEK.COM (Robert Beauchaine)
+Subject: Re: thoughts on christians
+Organization: Tektronix Inc., Beaverton, Or.
+Lines: 19
+
+In article <ofnWyG600WB699voA=@andrew.cmu.edu> pl1u+@andrew.cmu.edu (Patrick C Leger) writes:
+>EVER HEAR OF
+>BAPTISM AT BIRTH?  If that isn't preying on the young, I don't know what
+>is...
+>
+  
+  No, that's praying on the young.  Preying on the young comes
+  ...
+True label: alt.atheism
+Predicted label: talk religion misc
+--------------------------------------------------------------------------------
+Error 51/2263:
+Text snippet: From: tmc@spartan.ac.BrockU.CA (Tim Ciceran)
+Subject: Re: .GIF to .BMP
+Organization: Brock University, St. Catharines Ontario
+X-Newsreader: TIN [version 1.1 PL9]
+Distribution: usa
+Lines: 21
+
+Scott Zabolotzky (saz@hook.corp.mot.com) wrote:
+: I'm not sure if this is the correct place to ask this question.  If not,
+: please forgive me and point me in the right direction.
+
+: Does anybody know of a pro...
+True label: comp.graphics
+Predicted label: rec motorcycles
+--------------------------------------------------------------------------------
+Error 52/2263:
+Text snippet: From: inoue@crd.yokogawa.co.jp (Inoue Takeshi)
+Subject: How to see characterset from wchar_t
+Nntp-Posting-Host: emu
+Distribution: comp
+Organization: Yokogawa Electric Corporation, Tokyo, Japan
+Lines: 137
+
+
+We developed a toolkit running on the X Window System.
+The toolkit copes with any languages based on X11R5's i18n
+facility. As you know, there are 2 kinds of i18n implementation from MIT's 
+X11R...
+True label: comp.windows.x
+Predicted label: rec motorcycles
+--------------------------------------------------------------------------------
+Error 53/2263:
+Text snippet: From: erc@plitvice.berkeley.edu (Eric Ng)
+Subject: Sega Genesis plus 9 sports games for sale
+Nntp-Posting-Host: plitvice.berkeley.edu
+Organization: University of California at Berkeley
+Distribution: usa
+Lines: 23
+
+FOR SALE
+
+	1 Sega Genesis (including all cables, manuals, boxes)
+	1 controller
+	9 games, including all manuals and boxes:
+		Sonic the Hedgehog
+		Road Rash
+		John Madden Football '92
+		N....
+True label: misc.forsale
+Predicted label: rec autos
+--------------------------------------------------------------------------------
+Error 54/2263:
+Text snippet: From: speedy@engr.latech.edu (Speedy Mercer)
+Subject: Re: Boom! Dog attack!
+Organization: Louisiana Tech University
+Lines: 17
+NNTP-Posting-Host: bhm116e-spc.engr.latech.edu
+
+In article <csundh30.734975106@ursa> csundh30@ursa.calvin.edu (Charles Sundheim) writes:
+
+<tale of bike-eating-devil-dog deleted>
+
+>Moral: I'm not really sure, but more and more I believe that bikers ought 
+>       to be allow...
+True label: rec.motorcycles
+Predicted label: talk politics mideast
+--------------------------------------------------------------------------------
+Error 55/2263:
+Text snippet: Subject: Books For Sale [Ann Arbor, MI]
+From: david@ganglion.ann-arbor.mi.us (David Hwang)
+Reply-To: david@ganglion.ann-arbor.mi.us
+Distribution: na
+Organization: D.J. Services
+Lines: 68
+
+
+
+                           BOOKS FOR SALE
+                          ================
+
+Tally up any and all of the books you want and send me a message. 
+Shipping will be by US Mail Parcel Post/Book Rate.  Payme...
+True label: misc.forsale
+Predicted label: soc religion christian
+--------------------------------------------------------------------------------
+Error 56/2263:
+Text snippet: From: kuan@netcom.com (Kuan)
+Subject: Video Display
+Organization: Netcom Online Communications Services (408-241-9760 login: guest)
+Lines: 34
+
+
+   My mac monitor displays about 20 vertical lines when I use it.
+It means that either my display memory goes wrong or monitor is bad
+or video card is bad.
+   I checked my monitor, it works fine with other Mac.
+   I checked my video card, it's also fine.
+ ...
+True label: comp.sys.mac.hardware
+Predicted label: sci space
+--------------------------------------------------------------------------------
+Error 57/2263:
+Text snippet: From: "David R. Sacco" <dsav+@andrew.cmu.edu>
+Subject: Re: Spreading Christianity (Re: Christian Extremist Kills Doctor)
+Organization: Misc. student, Carnegie Mellon, Pittsburgh, PA
+Lines: 29
+Distribution: na
+	<1993Apr2.170259.13380@cbnewsj.cb.att.com>
+NNTP-Posting-Host: po4.andrew.cmu.edu
+In-Reply-To: <1993Apr2.170259.13380@cbnewsj.cb.att.com>
+
+   Not to be too snide about it, but I think this Ch...
+True label: talk.religion.misc
+Predicted label: computer windows x
+--------------------------------------------------------------------------------
+Error 58/2263:
+Text snippet: From: mmm@cup.portal.com (Mark Robert Thorson)
+Subject: Re: Cellular Phone (Portable) for sale
+Organization: The Portal System (TM)
+Distribution: usa
+Lines: 7
+
+I offer $100, shipment at seller's expense, payment as personal check
+sent by U.S. mail within 24 hours after receiving goods.  I reserve the
+right to return the goods, at my expense, if I find them to be defective
+or otherwise unacceptable...
+True label: misc.forsale
+Predicted label: rec autos
+--------------------------------------------------------------------------------
+Error 59/2263:
+Text snippet: From: steve-b@access.digex.com (Steve Brinich)
+Subject: Re: Once tapped, your code is no good any more.
+Organization: Express Access Online Communications, Greenbelt, MD USA
+Lines: 5
+Distribution: na
+NNTP-Posting-Host: access.digex.net
+
+  Agreed.  This is like the Bay of Pigs fiasco (planned by the Eisenhower
+Administration but given the final green light by Kennedy).
+  To be sure, hen it all went...
+True label: sci.crypt
+Predicted label: talk politics guns
+--------------------------------------------------------------------------------
+Error 60/2263:
+Text snippet: From: azw@aber.ac.uk (Andy Woodward)
+Subject: Re: Cultural Enquiries
+Organization: University College of Wales, Aberystwyth
+Lines: 35
+Nntp-Posting-Host: 144.124.112.30
+
+
+In article <1pcl6i$e4i@bigboote.WPI.EDU> ravi@vanilla.WPI.EDU (Ravi Narayan) writes:
+>In a previous article, groh@nu.cs.fsu.edu said:
+>= azw@aber.ac.uk (Andy Woodward) writes:
+>= 
+>= >2) Why do they ride Harleys?
+>= 
+>= 'cause we ...
+True label: rec.motorcycles
+Predicted label: talk politics mideast
+--------------------------------------------------------------------------------

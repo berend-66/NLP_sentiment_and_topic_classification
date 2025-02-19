@@ -38,6 +38,8 @@ from utils import DataPoint, DataType, accuracy, load_data, save_results
 
 import pdb 
 
+
+
 class Tokenizer:
     # The index of the padding embedding.
     # This is used to pad variable length sequences.
@@ -553,19 +555,21 @@ if __name__ == "__main__":
                     print(f"Error processing example: {str(e)}")
                     continue
         
-        # Report results
-        total_errors = len(errors)
-        print(f"\nFound {total_errors} errors in {len(dev_data)} examples")
-        print(f"Error rate: {(total_errors/len(dev_data))*100:.2f}%\n")
+        # Write error analysis to file
+        error_file_path = os.path.join("errors", f"errors_mlp_{args.data}.txt")
+        with open(error_file_path, "w", encoding="utf-8") as f:
+            f.write(f"Found {len(errors)} errors in {len(dev_data)} examples\n")
+            f.write(f"Error rate: {(len(errors)/len(dev_data))*100:.2f}%\n\n")
+            
+            # Write detailed error analysis for 100 examples with doc length of 400
+            for i, error in enumerate(errors[:100], 1):
+                f.write(f"Error {i}/{len(errors)}:\n")
+                f.write(f"Text snippet: {error['text'][:400]}...\n")
+                f.write(f"True label: {error['true_label_name']}\n")
+                f.write(f"Predicted label: {error['pred_label_name']}\n")
+                f.write("-" * 80 + "\n")
         
-        # Print detailed error analysis
-        for i, error in enumerate(errors[:100], 1):
-            print(f"Error {i}/{total_errors}:")
-            print(f"Text snippet: {error['text'][:200]}...")
-            print(f"True label: {error['true_label_name']}")
-            print(f"Predicted label: {error['pred_label_name']}")
-            print(f"Confidence: {error['confidence']*100:.2f}%")
-            print("-" * 80)
+        print(f"Error analysis saved to {error_file_path}")
 
     # Set to true if you want to save results
     if args.save_test_predictions:
