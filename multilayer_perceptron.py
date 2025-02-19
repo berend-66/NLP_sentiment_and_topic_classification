@@ -200,7 +200,7 @@ class MultilayerPerceptronModel(nn.Module):
         """
         super().__init__()
         self.padding_index = padding_index
-        embedding_dim = 50  # Embedding dimension can be adjusted as needed
+        embedding_dim = 300  # Embedding dimension can be adjusted as needed
         
         # Embedding layer: maps token IDs to embeddings
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=padding_index)
@@ -326,7 +326,7 @@ class Trainer:
         for epoch in range(num_epochs):
             self.model.train()
             total_loss = 0.0
-            dataloader = DataLoader(training_data, batch_size=4, shuffle=True)
+            dataloader = DataLoader(training_data, batch_size=16, shuffle=True) # Changed from batch size of 4 to 16 as the model is now more complex and requires more data to train properly
             for inputs_b_l, lengths_b, labels_b in tqdm(dataloader, desc=f"Epoch {epoch+1}"):
                 optimizer.zero_grad()
                 outputs = self.model(inputs_b_l, lengths_b)
@@ -576,5 +576,5 @@ if __name__ == "__main__":
         save_results(
             test_data,
             test_preds,
-            os.path.join("results", f"mlp_{args.data}_test_predictions.csv"),
+            os.path.join("results", f"mlp_{args.data}_test_predictions_vocab_size_{args.max_vocab_size}_max_length_{args.max_length}_dropout_rate_{args.dropout_rate}_hidden_dims_{args.hidden_dims}.csv"),
         )
