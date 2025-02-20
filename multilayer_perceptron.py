@@ -35,6 +35,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 from utils import DataPoint, DataType, accuracy, load_data, save_results
+import matplotlib.pyplot as plt
 
 import pdb 
 
@@ -305,42 +306,49 @@ class Trainer:
         val_data: BOWDataset,
         optimizer: torch.optim.Optimizer,
         num_epochs: int,
-        patience: int = 3  # Number of epochs to wait for improvement
-    ) -> None:
+        patience: int = 3
+    ) -> Tuple[List[float], List[float]]:  # Return training and validation accuracies
         """
-        Trains the MLP model with early stopping based on validation accuracy.
-
-        Parameters:
-            training_data (BOWDataset): The training dataset.
-            val_data (BOWDataset): The validation dataset.
-            optimizer (torch.optim.Optimizer): The optimizer for training.
-            num_epochs (int): Maximum number of epochs.
-            patience (int): Number of epochs with no improvement after which training will be stopped.
+        Trains the MLP model and returns lists of training and validation accuracies.
         """
         torch.manual_seed(0)
         loss_fn = nn.CrossEntropyLoss()
         best_val_acc = 0.0
         epochs_without_improvement = 0
         best_model_state = None
+        
+        # Lists to store metrics for plotting
+        training_accuracies = []
+        validation_accuracies = []
 
         for epoch in range(num_epochs):
             self.model.train()
             total_loss = 0.0
-            dataloader = DataLoader(training_data, batch_size=16, shuffle=True) # Changed from batch size of 4 to 16 as the model is now more complex and requires more data to train properly
+            num_batches = 0
+            dataloader = DataLoader(training_data, batch_size=16, shuffle=True)
+            
+            # Training loop
             for inputs_b_l, lengths_b, labels_b in tqdm(dataloader, desc=f"Epoch {epoch+1}"):
                 optimizer.zero_grad()
                 outputs = self.model(inputs_b_l, lengths_b)
                 loss = loss_fn(outputs, labels_b)
                 loss.backward()
                 optimizer.step()
-                total_loss += loss.item() * inputs_b_l.size(0)
-            per_dp_loss = total_loss / len(training_data)
+                total_loss += loss.item()
+                num_batches += 1
+            
+            # Calculate average loss for this epoch
+            avg_loss = total_loss / num_batches
 
-            # Evaluate on training and validation sets
+            # Calculate training accuracy
             train_acc = self.evaluate(training_data)
-            val_acc = self.evaluate(val_data)
+            training_accuracies.append(train_acc)
 
-            print(f"Epoch: {epoch + 1:<2} | Loss: {per_dp_loss:.2f} | Train Acc: {100 * train_acc:.2f}% | Val Acc: {100 * val_acc:.2f}%")
+            # Evaluate on validation set
+            val_acc = self.evaluate(val_data)
+            validation_accuracies.append(val_acc)
+
+            print(f"Epoch: {epoch + 1:<2} | Loss: {avg_loss:.4f} | Train Acc: {100 * train_acc:.2f}% | Val Acc: {100 * val_acc:.2f}%")
 
             # Early stopping check
             if val_acc > best_val_acc:
@@ -351,12 +359,35 @@ class Trainer:
                 epochs_without_improvement += 1
 
             if epochs_without_improvement >= patience:
-                print(f"Validation accuracy has not improved for {patience} epochs. Stopping early.")
+                print(f"Early stopping after {epoch + 1} epochs")
                 break
 
-        # Restore the best model
+        # Restore best model
         if best_model_state is not None:
             self.model.load_state_dict(best_model_state)
+
+        return training_accuracies, validation_accuracies
+
+
+def plot_accuracy(training_accuracies: List[float], validation_accuracies: List[float], save_path: str = None):
+    """
+    Plot training and validation accuracies.
+    """
+    plt.figure(figsize=(10, 6))
+    plt.plot(training_accuracies, label='Training Accuracy', color='blue')
+    plt.plot(validation_accuracies, label='Validation Accuracy', color='orange')
+    plt.title('Training and Validation Accuracy vs. Epochs')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy')
+    plt.legend()
+    plt.grid()
+    
+    # Save plot if a path is provided
+    if save_path:
+        plt.savefig(save_path)
+        print(f"Plot saved to {save_path}")
+    
+    plt.show()  # Show the plot
 
 
 if __name__ == "__main__":
@@ -477,8 +508,7 @@ if __name__ == "__main__":
     trainer = Trainer(model)
 
     print("Training the model...")
-    optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-    trainer.train(train_ds, val_ds, optimizer, num_epochs)
+    training_accuracies, validation_accuracies = trainer.train(train_ds, val_ds, optimizer, num_epochs)
 
     # Evaluate on dev
     dev_acc = trainer.evaluate(dev_ds)
@@ -556,7 +586,7 @@ if __name__ == "__main__":
                     continue
         
         # Write error analysis to file
-        error_file_path = os.path.join("errors", f"errors_mlp_{args.data}.txt")
+        error_file_path = os.path.join("errors", f"errors_mlp_{args.data}_700_chars.txt")
         with open(error_file_path, "w", encoding="utf-8") as f:
             f.write(f"Found {len(errors)} errors in {len(dev_data)} examples\n")
             f.write(f"Error rate: {(len(errors)/len(dev_data))*100:.2f}%\n\n")
@@ -564,7 +594,7 @@ if __name__ == "__main__":
             # Write detailed error analysis for 100 examples with doc length of 400
             for i, error in enumerate(errors[:100], 1):
                 f.write(f"Error {i}/{len(errors)}:\n")
-                f.write(f"Text snippet: {error['text'][:400]}...\n")
+                f.write(f"Text snippet: {error['text'][:700]}...\n")
                 f.write(f"True label: {error['true_label_name']}\n")
                 f.write(f"Predicted label: {error['pred_label_name']}\n")
                 f.write("-" * 80 + "\n")
@@ -578,3 +608,10 @@ if __name__ == "__main__":
             test_preds,
             os.path.join("results", f"mlp_{args.data}_test_predictions_vocab_size_{args.max_vocab_size}_max_length_{args.max_length}_dropout_rate_{args.dropout_rate}_hidden_dims_{args.hidden_dims}.csv"),
         )
+
+    # Create plots directory if it doesn't exist
+    os.makedirs("plots", exist_ok=True)
+    
+    # Plot and save the accuracies
+    plot_path = os.path.join("plots", f"accuracy_plot_{args.data}.png")
+    plot_accuracy(training_accuracies, validation_accuracies, save_path=plot_path)

@@ -1,5 +1,6 @@
-Found 2263 errors 
---------------------------------------------------------------------------------
+Found 2263 errors in 2263 examples
+Error rate: 100.00%
+
 Error 1/2263:
 Text snippet: From: tim@kimba.catt.citri.edu.au (Tim Liddelow)
 Subject: Installing MIT X11R5 on Apollo
@@ -12,9 +13,14 @@ with or without GCC 2.3.3.  In particular, is there anything I should watch out 
 Thanks in advance
 
 --tim 
-_______________________________________________...
+________________________________________________________________________________
+  Tim Liddelow                                          for(;;) fork();
+  Systems Programmer
+  Centre of Advanced Technology in Telecommunications   My brain on a bad day.
+  CITRI, Melbourne, Australia                           
+  internet : tim@kimba.catt.citri.edu...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 2/2263:
 Text snippet: From: petrack@vnet.IBM.COM
@@ -28,9 +34,17 @@ Could someone please do one of the following:
 1. Point to an init that allows me to turn off power management on my
    Duo 210.
 1. Write an init that would allow me to turn off ALL power management on
-...
+   Duo 210.
+2. Point me to documentation on power management so that I can write such
+   an init.
+3. Explain to me why such an init is totally or partially impossible.
+
+Ideally, of course, I would like to be able to turn in on and off on the
+fly.
+
+Surely such an init would be very helpful to Powerbo...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 3/2263:
 Text snippet: From: Lars.Jorgensen@p7.syntax.bbs.bad.se (Lars Jorgensen)
@@ -46,9 +60,17 @@ To:All
 Hi,
 
 Does anybody have the source code to the externel processes that comes with 3D 
-Studio, and mabe som kind of DOC for writing the ...
+Studio, and mabe som kind of DOC for writing the processes your self.
+
+
+/Lars
+
++++ Author: Lars_Jorgensen@p7.syntax.bbs.bad.se, Syntax BBS, Denmark
+
+--- GoldED 2.41
+...
 True label: comp.graphics
-Predicted label: rec motorcycles
+Predicted label: talk politics guns
 --------------------------------------------------------------------------------
 Error 4/2263:
 Text snippet: From: dnh@mfltd.co.uk (Des Herriott)
@@ -63,9 +85,15 @@ X-Newsreader: mxrn 6.18-3
 I've just managed to get xdm running from an NCR 3000 (an SVR4 486 box
 running XFree86 1.2) to my NCD XDisplay.  It's pretty much working, but
 I'm encountering a weird error.  I'm attempting to start an xterm from
-my .xs...
+my .xsession file, but nothing happens.  Redirecting stderr to a file
+using 'exec 2>$HOME/.xerrors' in .xsession reveals the error message:
+
+  "xterm: Error 14, errno 1: Not owner"
+
+Now, if I start xterm from the window manager, or from the command line,
+it works fine.  And starting other clients, like th...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 5/2263:
 Text snippet: From: willisw@willisw.ENG.CLEMSON.edu (Bill Willis)
@@ -77,9 +105,15 @@ In article <1qn627$iv@darwin.sura.net> wbarnes@sura.net (Bill Barnes) writes:
 
 >Recently my cousin got a second internal IDE drive (a Seagate 210MB,
 >I can look up the model number if it's important) and I've been
->trying to help him i...
+>trying to help him install it.  [I've got a vested interest, since
+>my machine's busted and I have to use his until I get mine fixed.]
+>He already has a Seagate 85MB IDE HD (again, I forget the model number
+>but I can find out.)
+
+>Anyway, I can't seem to get the bloody thing up.  I've managed to get
+>one or the other d...
 True label: comp.sys.ibm.pc.hardware
-Predicted label: computer systems ibm pc hardware
+Predicted label: rec sport baseball
 --------------------------------------------------------------------------------
 Error 6/2263:
 Text snippet: From: deuelpm@craft.camp.clarkson.edu (Hobbit)
@@ -93,9 +127,16 @@ Lines: 26
 I have a question about digital communications encryption:
 
 	The Fact Sheet mentioned encryption/decryption microcircuitry with 
-special "keys" for law enforcement for wire tapping purpos...
+special "keys" for law enforcement for wire tapping purposes.
+
+	If I wanted to, couldn't I develop  encryption of my own?  That
+is, if me and a partner in crime had unique Encryption/decryption
+devices installed before the "tappable" one, couldn't we circumvent
+the "keys" system?  Or replace it?
+
+	I'd be really interested in knowing how the E/D microcircui...
 True label: sci.crypt
-Predicted label: talk politics guns
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 7/2263:
 Text snippet: From: parr@acs.ucalgary.ca (Charles Parr)
@@ -117,9 +158,12 @@ Add as you wish...
 Regards, Charles
 -- 
 Within the span of the last few weeks I have heard elements of
-sep...
+separate threads which, in that they have been conjoined in time,
+struck together to form a new chord within my hollow and echoing
+gourd. --Unknown net.person
+...
 True label: rec.autos
-Predicted label: rec sport baseball
+Predicted label: sci crypt
 --------------------------------------------------------------------------------
 Error 8/2263:
 Text snippet: From: cy779@cleveland.Freenet.Edu (Anas Omran)
@@ -132,9 +176,16 @@ NNTP-Posting-Host: slc4.ins.cwru.edu
 
 In a previous article, adam@endor.uucp (Adam Shostack) says:
 
->In article <2BDAD779.24910@news.service.uci.edu> tclock@orion.oac.uci.edu (Tim Clock) writes...
+>In article <2BDAD779.24910@news.service.uci.edu> tclock@orion.oac.uci.edu (Tim Clock) writes:
+>>In article <AMOSS.93Apr25163327@shuldig.cs.huji.ac.il> amoss@shuldig.cs.huji.ac.il (Amos Shapira) writes:
+>>>cy779@cleveland.Freenet.Edu (Anas Omran) writes:
+>
+>>>Eh????  Could you please give me details about an event where a "Neutral
+>>>Observer" was killed by purpose by an Israeli soldier?
+>
+...
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 9/2263:
 Text snippet: From: lorne@sun.com (Lorne R. Johnson - Sun IC Region SE)
@@ -152,9 +203,24 @@ NNTP-Posting-Host: normajean.west.sun.com
 
 I have 2 tickets that I can't use (Last pair this year).
 
-Section 109, Row ...
+Section 109, Row P, Seats 8 & 9
+
+DAY	DATE	OPPONENT	TIME	
+---	----	--------	----	
+WED     4/21    Sacremento     7:30
+
+Price: $45.00 = MY COST
+
+Call or email if you are interested in these tickets.
+
+
+Lorne Johnson
+lorne@sun.com
+(408) 562-6003
+
+...
 True label: misc.forsale
-Predicted label: rec autos
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 10/2263:
 Text snippet: From: pharvey@quack.kfu.com (Paul Harvey)
@@ -166,9 +232,17 @@ I wrote in response to dlecoint@garnet.acns.fsu.edu (Darius_Lecointe):
 
 >[It's not clear how much more needs to be said other than the FAQ.  I
 >think Paul's comments on esteeming one day over another (Rom 14) is
->probably all that n...
+>probably all that needs to be said.
+
+Was Paul a God too? Is an interpretation of the words of Paul of higher
+priority than the direct word of Jesus in Matt5:14-19? Paul begins
+Romans 14 with "If someone is weak in the faith ..." Do you count
+yourself as one who is weak in the faith?
+
+>I accept that Darius is doing
+>wh...
 True label: soc.religion.christian
-Predicted label: talk politics misc
+Predicted label: computer windows x
 --------------------------------------------------------------------------------
 Error 11/2263:
 Text snippet: From: prb@access.digex.com (Pat)
@@ -179,9 +253,21 @@ NNTP-Posting-Host: access.digex.net
 
 In article <1993Apr22.214735.22733@Princeton.EDU> phoenix.Princeton.EDU!carlosn (Carlos G. Niederstrasser) writes:
 >A transporter operator!?!?  That better be one important transport.  Usually  
->it is a nameless ensign who does th...
+>it is a nameless ensign who does the job.  For such a guest appearance I would  
+>have expected a more visible/meaningful role.
+
+
+Christian  Slater, only gota  cameo on ST6,  
+
+and besides.
+
+Maybe she can't act:-)
+
+pat
+
+...
 True label: sci.space
-Predicted label: computer systems mac hardware
+Predicted label: rec autos
 --------------------------------------------------------------------------------
 Error 12/2263:
 Text snippet: From: emarsh@hernes-sun.Eng.Sun.COM (Eric Marsh)
@@ -192,9 +278,17 @@ NNTP-Posting-Host: hernes-sun
 
 In article <1qjahh$mrs@horus.ap.mchp.sni.de> frank@D012S658.uucp (Frank O'Dwyer) writes:
 >In article <pww-140493214334@spac-at1-59.rice.edu> pww@spacsun.rice.edu (Peter Walker) writes:
->#In article <1qie61$fkt@horus.ap.mchp...
+>#In article <1qie61$fkt@horus.ap.mchp.sni.de>, frank@D012S658.uucp (Frank
+>#O'Dwyer) wrote:
+>#> Objective morality is morality built from objective values.
+
+>#But where do those objective values come from? How can we measure them?
+>#What mediated thair interaction with the real world, a moralon? Or a scalar
+>#valuino field?
+
+>Science (...
 True label: talk.religion.misc
-Predicted label: talk religion misc
+Predicted label: computer os microsoft windows misc
 --------------------------------------------------------------------------------
 Error 13/2263:
 Text snippet: From: betz@gozer.idbsu.edu (Andrew Betz)
@@ -206,9 +300,15 @@ Lines: 84
 In article <1993Apr16.194708.13273@vax.oxford.ac.uk> jaj@vax.oxford.ac.uk writes:
 >What all you turkey pro-pistol and automatic weapons fanatics don't seem to
 >realize is that the rest of us *laugh* at you. You don't make me angry, you
->just make me chuck...
+>just make me chuckle - I remeber being in Bellingham, Washington and seeing a
+
+[Warning: Flammage to follow...]
+
+Ah, that British sense of humor.  Probably got a real gut-buster going
+when the IRA blew that kid up a couple of weeks ago, huh?  Of course,
+in Britain, your government has ordered you defenseless, so your...
 True label: talk.politics.guns
-Predicted label: sci med
+Predicted label: sci space
 --------------------------------------------------------------------------------
 Error 14/2263:
 Text snippet: From: cmenzel@kbssun1.tamu.edu (Chris Menzel)
@@ -222,9 +322,15 @@ Jeff Meyers (jmeyers@ecst.csuchico.edu) wrote:
 : In article <1qkqrhINNobc@matt.ksu.ksu.edu> kentiler@matt.ksu.ksu.edu (Kent P. Iler) writes:
 : .
 : .
-: >I have a fri...
+: >I have a friend who connects to the mainframe and unix machines here
+: >using [Procomm Plus for Windows], but the screen seems to have a problem 
+: >keeping up with the
+: >modem....he has a 14,400 modem on a 486 50 Mhz machine.
+
+: Tell him he probably needs to upgrade to a faster video card!  My 9600 baud
+: mod...
 True label: comp.os.ms-windows.misc
-Predicted label: sci crypt
+Predicted label: computer systems ibm pc hardware
 --------------------------------------------------------------------------------
 Error 15/2263:
 Text snippet: From: daveb@pogo.wv.tek.com (Dave Butler)
@@ -236,9 +342,13 @@ I produced an error last week about CHORION:
 
 >> (By the way Mr DeCenso, you really should have looked in the index of your
 >> Bauer-Arndt-Gingrich Greek lexicon.  You would have found that the word in
->> Acts for "lot" is "k...
+>> Acts for "lot" is "kleros," not "CHORION" as stated by Mr Archer, and nowhere
+>> in the very large discussion of kleros in done the to "Theological Dictionary
+>> of the New Testament" by Bromley, is the meaning "burial plot" discussed.  It
+>> discusses the forms of "kleros" (eg: kleros, kleroo, etc), and the various
+>>...
 True label: talk.religion.misc
-Predicted label: computer windows x
+Predicted label: computer os microsoft windows misc
 --------------------------------------------------------------------------------
 Error 16/2263:
 Text snippet: From: louray@seas.gwu.edu (Michael Panayiotakis)
@@ -253,9 +363,16 @@ Lines: 15
 >on Cica...
 >
 
-Please do...and let us know specifics....
+Please do...and let us know specifics.  (lest I'm the only one on this).
+
+Mickey
+-- 
+pe-|| ||  MICHAEL PANAYIOTAKIS: louray@seas.gwu.edu 
+ace|| ||                                   ...!uunet!seas.gwu.edu!louray
+|||| \/|  *how do make a ms-windows .grp file reflect a HD directory??*
+\\\\   |  "well I ain't always right, but I've never be...
 True label: comp.os.ms-windows.misc
-Predicted label: sci crypt
+Predicted label: computer systems ibm pc hardware
 --------------------------------------------------------------------------------
 Error 17/2263:
 Text snippet: From: strnlght@netcom.com (David Sternlight)
@@ -273,9 +390,14 @@ Brinich) writes:
 >     behavoir, or
 >
 
-er, e...
+er, excuse me but since the escrow agencies aren't yet chosen, how can you
+say they have a "history of untrustworthy behavoir[sic]"?
+
+I'm sure each of us can think of agencies without such a history. Price
+Waterhouse has kept the secret of the Academy Awards for many years, even in
+the face of an aggress...
 True label: sci.crypt
-Predicted label: talk politics guns
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 18/2263:
 Text snippet: From: Bill.Kayser@delft.SGp.slb.COM (Bill Kayser)
@@ -290,9 +412,17 @@ Cc: Bill.Kayser@delft.sgp.slb.com
 
 > 
 > Does anyone have any good ideas on how to integrate C++ code elegantly
-> with TeleUse, UIM/X / Interface Architect generated co...
+> with TeleUse, UIM/X / Interface Architect generated code?
+> 
+> Source would be great, but any suggestions are welcome.
+
+It's my understanding that the next release of UIM/X, due out
+last February :-) has full support for C++.
+
+I use XDesigner which does not have the interpreter or UI meta languages
+of these other tools but does fully support C++ code g...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 19/2263:
 Text snippet: From: oconnor@eng.umd.edu (Mark O'Connor)
@@ -306,9 +436,16 @@ Originator: oconnor@coffee.eng.umd.edu
 
 On the other side of the fence, I owned a Bieffe off-road helmet.
 Took what I would consider a minor fall, and had visible damage
-to the shell.  Yes, the helm...
+to the shell.  Yes, the helmet did its job.  But the damage/impact
+ratio was scary.  I own Bell Moto-5 now, have taken impacts on
+order of twice the Bieffe impact (we do this frequently in MX),
+and don't even have a scratch on it after two seasons.  My
+recommendation is to buy _high_ quality gear.  YMMV.
+
+-mark
+...
 True label: rec.motorcycles
-Predicted label: rec sport baseball
+Predicted label: talk politics guns
 --------------------------------------------------------------------------------
 Error 20/2263:
 Text snippet: From: zakir@leland.Stanford.EDU (Zakir Sahul)
@@ -324,7 +461,7 @@ how fast/much car prices have gone up in the last decade?
 Thanks.
 ...
 True label: rec.autos
-Predicted label: rec sport baseball
+Predicted label: sci crypt
 --------------------------------------------------------------------------------
 Error 21/2263:
 Text snippet: From: speedy@engr.latech.edu (Speedy Mercer)
@@ -335,7 +472,12 @@ NNTP-Posting-Host: bhm116e-spc.engr.latech.edu
 
 In article <1993Apr20.163629.29153@iscnvx.lmsc.lockheed.com> jrlaf@sgi502.msd.lmsc.lockheed.com (J. R. Laferriere) writes:
 
->I was just wondering if there were any law officers that read ...
+>I was just wondering if there were any law officers that read this.  I have
+>several questions I would like to ask pertaining to motorcycles and cops.
+>And please don't say get a vehicle code, go to your local station, or obvious
+>things like that.  My questions would not be found in those places nor
+>answered face to face with a real, live in the flesh, cop.
+...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -349,9 +491,13 @@ Lines: 8
   I doubt there are good prospects for  a self armoring system
 for venus surface conditions (several hundred degrees, very high
 pressure of CO2, possibly sulfuric and nitric acids or oxides
-but it is a notion to consider for ou...
+but it is a notion to consider for outer planets rs where you might
+pick up ices under less extream upper atmosphere conditions buying
+deeper penetration.  A nice creative idea, unlikly but worthy of
+thinking about.
+...
 True label: sci.space
-Predicted label: computer os microsoft windows misc
+Predicted label: talk religion misc
 --------------------------------------------------------------------------------
 Error 23/2263:
 Text snippet: From: klute@tommy.INformatik.uni-dortmund.DE (Rainer Klute)
@@ -366,9 +512,18 @@ To: xannounce@expo.lcs.mit.edu
 	=========================
 
 Although xmosaic is a great program in general, it unfortunately comes
-without Imake support. So I created one. ...
+without Imake support. So I created one. Until Marc Andreessen finds the
+time to incorporate it in an official xmosaic release, you can easily do it
+yourself. Use anonymous FTP to get
+
+	ftp.germany.eu.net:/pub/X11/misc/xmosaic.Imake.tar.z
+
+The file's size is 3200 Byte. You will need gzip to unpack it. Have fun!
+
+-- 
+  Dipl.-Inform. Rainer ...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 24/2263:
 Text snippet: From: henry@zoo.toronto.edu (Henry Spencer)
@@ -380,9 +535,14 @@ In article <1993Apr13.164924.2606@wuecl.wustl.edu> dp@cec1.wustl.edu (David Prut
 >Can circuits found in electronics magazines (with no patent disclaimer)
 >be used legally as subcircuits of a commercial unit ?
 
-There are two issues here...
+There are two issues here:  copyright and patent.
+
+The magazine article's contents are copyrighted, and may not be reproduced,
+translated, etc., without the copyright holder's permission.  However, this
+does not cover the *ideas* expressed, only the form of expression.  Copying
+their circuit diagram or PC-board pattern is c...
 True label: sci.electronics
-Predicted label: soc religion christian
+Predicted label: talk religion misc
 --------------------------------------------------------------------------------
 Error 25/2263:
 Text snippet: From: ak296@yfn.ysu.edu (John R. Daker)
@@ -399,7 +559,13 @@ In a previous article, manish@uclink.berkeley.edu (Manish Vij) says:
 >Can someone recommend how to ship a motorcycle from San Francisco
 >to Seattle?  And how much might it cost?
 
-Hmmmmmm.....
+Hmmmmmm....put your butt in the seat and follow the road signs?
+
+-- 
+DoD #650<----------------------------------------------------------->DarkMan
+   The significant problems we face cannot be solved at the same level of
+      thinking we were at when we created them.   - Albert Einstein
+         ____________...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -413,9 +579,16 @@ Lines: 184
 NNTP-Posting-Host: frej.teknikum.uu.se
 In-reply-to: hasan@McRCIM.McGill.EDU's message of Mon, 5 Apr 93 12:54:19 GMT
 
-In article <1993Apr5.125419.8157@thunder....
+In article <1993Apr5.125419.8157@thunder.mcrcim.mcgill.edu> hasan@McRCIM.McGill.EDU writes:
+
+
+[After a small refresh Hasan got on the track again.]
+
+   In article <FLAX.93Apr4151411@frej.teknikum.uu.se>, flax@frej.teknikum.uu.se (Jonas Flygare) writes:
+
+   |> In article <1993Apr3.182738.17587@thunder.mcrcim.mcgill.edu> hasan@McRCIM.McGill....
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 27/2263:
 Text snippet: From: mmb@lamar.ColoState.EDU (Michael Burger)
@@ -430,9 +603,19 @@ Sunday April 18
   N.J./N.Y.I. at Pittsburgh - 1:00 EDT to Eastern Time Zone
   ABC - Gary Thorne and Bill Clement
 
-  St. Louis at Chicago - 12:00 CDT and 11:00 MDT - to Ce...
+  St. Louis at Chicago - 12:00 CDT and 11:00 MDT - to Central/Mountain Zones
+  ABC - Mike Emerick and Jim Schoenfeld
+
+  Los Angeles at Calgary - 12:00 PDT and 11:00 ADT - to Pacific/Alaskan Zones
+  ABC - Al Michaels and John Davidson
+
+Tuesday, April 20
+  N.J./N.Y.I. at Pittsburgh - 7:30 EDT Nationwide
+  ESPN - Gary Thorne and Bill Clement
+
+Thursday, Apri...
 True label: rec.sport.hockey
-Predicted label: atheism
+Predicted label: computer systems mac hardware
 --------------------------------------------------------------------------------
 Error 28/2263:
 Text snippet: From: terziogl@ee.rochester.edu (Esin Terzioglu)
@@ -442,9 +625,16 @@ Lines: 33
 
 In article <1993Apr19.155856.8260@kpc.com> henrik@quayle.kpc.com  writes:
 >In article <1993Apr17.185118.10792@ee.rochester.edu>, terziogl@ee.rochester.edu (Esin Terzioglu) writes:
->|> In article <1993Apr...
+>|> In article <1993Apr16.195452.21375@urartu.sdpa.org> dbd@urartu.sdpa.org (David Davidian) writes:
+>|> >04/16/93 1045  ARMENIA SAYS IT COULD SHOOT DOWN TURKISH PLANES
+>|> >
+>|>  
+>|> Ermenistan kasiniyor...
+>|> 
+>|> Let me translate for everyone else before the public traslation service gets
+>|> into it	: Armenia is get...
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 29/2263:
 Text snippet: From: ohayon@jcpltyo.JCPL.CO.JP (Tsiel Ohayon)
@@ -458,9 +648,20 @@ JLE the Great writes:
 [JLE] take to kill a 5 year old native child?
 [JLE] A: Four
 [JLE] Two fasten his arms, one shoots in the face,
-[JLE] and one...
+[JLE] and one writes up a false report.
+
+A couple of months ago JLE wrote a terrible C program (it would never have 
+passed compilation). This is one describes JLE the Great.
+
+---- 8< Cut Here and save to jle.c ----------- >8 ----------
+
+#include <stdio.h>
+#include <signal.h>
+
+#define	LOSER		0x01
+#define	CHILDIS...
 True label: talk.politics.mideast
-Predicted label: sci electronics
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 30/2263:
 Text snippet: Subject: STARGARDTS DISEASE
@@ -476,9 +677,14 @@ First, what is the general prognosis - is blindness the result?
 Second, what treatments, if any, are available?
 
 
+-- 
+The Old Frog's Almanac - A Salute to That Old Frog Hisse'f, Ryugen Fisher 
+     (604) 245-3205 (v32) (604) 245-4366 (2400x4) SCO XENIX 2.3.2 GT 
+  Ladysmith, British Columbia, CANADA. Serving Central Vancouver Island  
+with public access UseNet and Internet Mail - home to the Holocaust Almanac
 ...
 True label: sci.med
-Predicted label: sci electronics
+Predicted label: sci med
 --------------------------------------------------------------------------------
 Error 31/2263:
 Text snippet: From: u96_averba@vaxc.stevens-tech.edu
@@ -490,9 +696,16 @@ I don't know if anyone knows about this topic: electrical heart
 failure. One of my friends has had to go to the doctor because
 he had chest pains. The Doc said it was Arythmia. So he had to
 go to a new york hospital for a lot of money to get treated. His
-doctors said that he could die...
+doctors said that he could die from it, and the medication caused
+cancer ( that he was taking). Well, I suggested that he run, excersize
+and eat more, ( he is very skinny) but he says that has nothing
+to do with it. Does anyone know what causes arythmia and how 
+it can be treated?
+			Thanks 
+
+...
 True label: sci.med
-Predicted label: sci electronics
+Predicted label: sci med
 --------------------------------------------------------------------------------
 Error 32/2263:
 Text snippet: Subject: Re: Cirrus Logic 5426 Graph Card
@@ -503,9 +716,19 @@ NNTP-Posting-Host: kosmos.wcc.govt.nz
 Lines: 37
 
 In article <1qms3c$37t@news.cs.tu-berlin.de>, wong@cs.tu-berlin.de (Wolfgang Jung) writes:
->After setting up Windows for using my Cirrus Logic 5426 VLB Grap...
+>After setting up Windows for using my Cirrus Logic 5426 VLB GraphicsCard
+>It moved a normal Window from one place to another...
+
+>...What I was wondering why is it not using the BITBLT  Engine which
+>is suuposed to be on the Chip.
+
+>How are the experiences here..
+>Have I done something wrong ?
+
+The 5426 has its own set of drivers. You may be using the
+drivers in...
 True label: comp.os.ms-windows.misc
-Predicted label: sci crypt
+Predicted label: computer systems ibm pc hardware
 --------------------------------------------------------------------------------
 Error 33/2263:
 Text snippet: From: dyer@spdcc.com (Steve Dyer)
@@ -521,7 +744,7 @@ Steve Dyer
 dyer@ursa-major.spdcc.com aka {ima,harvard,rayssd,linus,m2c}!spdcc!dyer
 ...
 True label: sci.med
-Predicted label: sci electronics
+Predicted label: sci med
 --------------------------------------------------------------------------------
 Error 34/2263:
 Text snippet: Nntp-Posting-Host: surt.ifi.uio.no
@@ -532,9 +755,18 @@ In-Reply-To: viking@iastate.edu (Dan Sorenson)'s message of Mon, 19 Apr 1993
 Organization: Dept. of Informatics, University of Oslo, Norway
         <1qjmnuINNlmd@clem.handheld.com>
         <CMM.0.90.2.734911642.thomasp@surt.ifi.uio.no>
-        <vikin...
+        <viking.734945095@ponderous.cc.iastate.edu>
+        <CMM.0.90.2.735132009.thomasp@surt.ifi.uio.no>
+        <viking.735209562@ponderous.cc.iastate.edu>
+Lines: 51
+Originator: thomasp@surt.ifi.uio.no
+
+
+
+I don't remember the figures EXACTLY, but there were about 3500 deaths in Texas
+in 1991 that was caused by...
 True label: talk.politics.guns
-Predicted label: sci med
+Predicted label: sci space
 --------------------------------------------------------------------------------
 Error 35/2263:
 Text snippet: From: joshua@cpac.washington.edu (Joshua Geller)
@@ -548,9 +780,19 @@ NNTP-Posting-Host: bailey.cpac.washington.edu
 In-reply-to: ch981@cleveland.Freenet.Edu's message of 17 Apr 1993 20:31:11 GMT
 
 
-In article <1qppef$...
+In article <1qppef$i5b@usenet.INS.CWRU.Edu> ch981@cleveland.Freenet.Edu 
+(Tony Alicea) writes:
+
+>   Kent:
+
+>	You say that
+
+>   >There are about 4-10 competing Rosicrucian orders existing today,
+			  ^^^^^^^^^
+>   >most of them are spin-offs from OTO and other competing organizations
+>   >from the 19th century France/G...
 True label: talk.religion.misc
-Predicted label: computer windows x
+Predicted label: computer os microsoft windows misc
 --------------------------------------------------------------------------------
 Error 36/2263:
 Text snippet: From: Center for Policy Research <cpr@igc.apc.org>
@@ -565,9 +807,19 @@ Subject: From Israeli press. TORTURE.
 
 /* Written  4:41 pm  Apr 16, 1993 by cpr@igc.apc.org in igc:mideast.forum */
 /* ---------- "From Israeli press. TORTURE." ---------- */
-FROM ...
+FROM THE ISRAELI PRESS.
+
+Newspaper: Ma'ariv Date: 18. December 1992 Author: Avi Raz
+
+Subject: Torture
+
+Title of article: Moderate physical pressure
+
+Several times in the course of the long hours in the interrogation
+room in Tulkarm prison, during which he says he was humiliated,
+beaten and tortured, Omar...
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 37/2263:
 Text snippet: Subject: Re: Exploding TV!
@@ -587,9 +839,10 @@ Han
 >prasadr@vtvm1.cc.vt.edu
 >
 
+
 ...
 True label: sci.electronics
-Predicted label: soc religion christian
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 38/2263:
 Text snippet: From: dpalmer@mcnc.org (W. Dev Palmer)
@@ -601,9 +854,14 @@ Lines: 34
 In article <1993Apr6.053736.23113@doug.cae.wisc.edu> kolstad@cae.wisc.edu (Joel Kolstad) writes:
 >>In <3889@ncr-mpd.FtCollinsCO.NCR.COM> Brad Wright writes:
 >>
->>>	If you know much about PC's (IBM comp) you m...
+>>>	If you know much about PC's (IBM comp) you might try the joystick
+>>>port.  Though I haven't tried this myself, I've been told that the port
+>
+>I believe that the "A-D converters" found on a joystick port are really
+>timers that tick off how long it takes an R-C circuit (the R being your
+>paddle) to charge up to something like 1/2 Vcc.  For g...
 True label: sci.electronics
-Predicted label: soc religion christian
+Predicted label: talk religion misc
 --------------------------------------------------------------------------------
 Error 39/2263:
 Text snippet: Subject: re: WINBENCH 3.11 help -- graphics comparison?!?
@@ -618,9 +876,18 @@ Lines: 25
 In article <C4zoGD.C56@news.udel.edu> swyatt@bach.udel.edu (Stephen L Wyatt) writes:
 >I have a question about WINBENCH (pc labs thing) 3.11..
 >
->I have a 386/33 and a Ahead B (512k) ca...
+>I have a 386/33 and a Ahead B (512k) card and got these results-
+>
+>windows vga driver - 2.44 million
+>ahead B (640-480-256) driver - 455,000 winmarks
+>windows svga (800-600-16) driver - 1.68 million winmarks...
+>
+>I was thinking about upgrading to a diamond 24x card.. I read it had about
+>8 million winmark..
+>
+>obviously this is MUCH MU...
 True label: comp.os.ms-windows.misc
-Predicted label: sci crypt
+Predicted label: computer systems ibm pc hardware
 --------------------------------------------------------------------------------
 Error 40/2263:
 Text snippet: From: jim.wray@yob.sccsi.com (Jim Wray)
@@ -635,9 +902,15 @@ NNTP-Posting-Host: cs.utexas.edu
 
  BV>I read in the paper yestarday that Ted Turner wants to "trim" down
  BV>his media holdings and is putting CNN up for sale.  The #1 potential
- BV>bidder?  TIME/Warner of c...
+ BV>bidder?  TIME/Warner of course.  Sigh . . . . . Just what we need. :-(
+
+ Maybe now's the time for us, the NRA, GOA, CCRTKBA, SAF, et al to band
+ together and buy CNN as *our* voice. Wouldn't that be sumpin....broadcast
+ the truth for a change and be able to air a favorable pro-gun item or two....
+---
+ . OLX 2.2 . There is n...
 True label: talk.politics.guns
-Predicted label: sci med
+Predicted label: sci space
 --------------------------------------------------------------------------------
 Error 41/2263:
 Text snippet: From: graham@cs.washington.edu (Stephen Graham)
@@ -646,9 +919,13 @@ Organization: Computer Science & Engineering, U. of Washington, Seattle
 
 In article <1qicep$obf@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:
 >In article <1993Apr14.232806.18970@beaver.cs.washington.edu>, graham@cs.washington.edu (Stephen Graham) writes:
->> In article <1qhpcn$b12@transfer...
+>> In article <1qhpcn$b12@transfer.stratus.com> cdt@sw.stratus.com (C. D. Tavares) writes:
+>> >As far as "John Q. Public with a gun," the Supreme Court has already
+>> >ruled in cases such as US v. Miller (307 U.S. 175 (1939)), and US v.
+>> >Verdugo-Urquidez (110 S. Ct. 1839 (1990)) that that is EXACTLY what 
+>> >the amendment protec...
 True label: talk.politics.guns
-Predicted label: sci med
+Predicted label: sci space
 --------------------------------------------------------------------------------
 Error 42/2263:
 Text snippet: From: ant@palm21.cray.com (Tony Jones)
@@ -662,9 +939,17 @@ Erik Asphaug x2773 (asphaug@lpl.arizona.edu) wrote:
 : Unless... some insurance agent offers a multi-vehicle discount.  They
 : do this all the time for cars, assuming that you're only capable of 
 
-Progressive offer...
+Progressive offers multi-vehicle discounts.
+Good prices too IMHO.
+
+tony
+--
+Tony Jones (ant@cray.com, ..!uunet!cray!ant)
+CMCS Codegeneration Group, Software Division
+Cray Research Inc, 655F Lone Oak Drive, Eagan, MN 55121
+...
 True label: rec.motorcycles
-Predicted label: computer graphics
+Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
 Error 43/2263:
 Text snippet: From: thf2@kimbark.uchicago.edu (Ted Frank)
@@ -677,9 +962,16 @@ Lines: 23
 In article <1qmj6h$m5h@agate.berkeley.edu> jtchern@ocf.berkeley.edu (Joseph Hernandez) writes:
 >Houston Astros		1		Seattle Mariners	1
 >Montreal Expos		2		Toronto Blue Jays	3
->New York Mets	...
+>New York Mets		3		Oakland Athletics	2
+>Colorado Rockies	5		Detroit Tigers		3
+>Pittsburgh Pirates	5		Kansas City Royals	5
+>San Diego Padres	4 (13)		New York Yankees	4
+>St. Louis Cardinals	4		Cleveland Indians	3
+>Los Angeles Dodgers	2		Boston Red Sox		4 (13)
+>Atlanta Braves		1		California Angels     PPD
+>San Franci...
 True label: rec.sport.baseball
-Predicted label: misc forsale
+Predicted label: sci electronics
 --------------------------------------------------------------------------------
 Error 44/2263:
 Text snippet: From: sera@zuma.UUCP (Serdar Argic)
@@ -692,9 +984,18 @@ In article <2BAC23FF.25215@news.service.uci.edu> tclock@orion.oac.uci.edu (Tim C
 
 >There was no such letter in the Chronicle on that date, or at any other time.
 
-Is this a figment of your imagination? ...
+Is this a figment of your imagination? Here is another one:
+
+
+ Source: "Mitteilungsblatt, Berlin, December 1939, Nr. 2 and 5-6"
+
+ Yet another historical fact: a fact that for years has been deliberately 
+ forgotten, concealed, and wiped from memory - the fact of Armenian-Nazi 
+ collaboration.
+
+ A magazine called Mitteilungsblatt der Deut...
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 45/2263:
 Text snippet: From: gwalker@rtfm.mlb.fl.us (Grayson Walker)
@@ -708,9 +1009,14 @@ Ah, yes, the big chunks down in the sump. The solution is simple. Sort of
 like the advice my Aunt always gave -- never scratch your ear with anything
 except your elbow.
 
-If you have pieces of ring, con rods, valve heads o...
+If you have pieces of ring, con rods, valve heads or stems, just reach into
+the sump through the hole in the block that was associated with the creation
+of those large bits and pieces. Anything you can't remove with one hand 
+through the hole in the block may safely be left in place.
+
+...
 True label: rec.autos
-Predicted label: rec sport baseball
+Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
 Error 46/2263:
 Text snippet: From: cs1442aq@news.uta.edu (cs1442aq)
@@ -724,7 +1030,7 @@ is expected to miss 2-5 weeks.
 
 ...
 True label: rec.sport.baseball
-Predicted label: atheism
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 47/2263:
 Text snippet: From: kmelcher@rafael.Arco.COM (Kenneth Melcher)
@@ -733,9 +1039,12 @@ Reply-To: kmelcher@rafael.Arco.COM
 Organization: ARCO Exploration and Production Technology
 Lines: 3
 
-My dad has always blamed the Phillies collapse in '64 on me...  On Sept 21,  1964,  the Phillies had something like a 9 game lead with 12 to play.  I was born on Sept 21,  1964.  The Phils proceeded to lose s...
+My dad has always blamed the Phillies collapse in '64 on me...  On Sept 21,  1964,  the Phillies had something like a 9 game lead with 12 to play.  I was born on Sept 21,  1964.  The Phils proceeded to lose something like 10 straight while the Cards won 10 straight (does anyone know hte exact numbers?),  and a pennant was blown.  To this day my dad likes to remind me that it all began when I was born!
+
+KRM
+...
 True label: rec.sport.baseball
-Predicted label: misc forsale
+Predicted label: sci electronics
 --------------------------------------------------------------------------------
 Error 48/2263:
 Text snippet: From: ziegenfE@moravian.edu (Eric W. Ziegenfus)
@@ -748,9 +1057,16 @@ In <1r74bcINN6ei@ome.sps.mot.com> wcl@risc.sps.mot.com (Wayne Long) writes:
 
 >  When I run our RS6000's "info" utility through a remote login
 >  shell (rlogin) from my Sun Sparc 1+, I can no longer type
->  lower case in any of info's window prompt's....
+>  lower case in any of info's window prompt's.
+
+>  I thought the prob. may have been due to my Sun window mgr. 
+>  (Openlook) being incompatible with the AIX Motif application
+>  but I tried it under TVTWM also.  Same result.
+>  
+>  So this is presumably an X11 key definition problem between 
+>  workstations - but my system admins. feign ignora...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 49/2263:
 Text snippet: From: kludge@grissom.larc.nasa.gov (Scott Dorsey)
@@ -764,9 +1080,16 @@ In article <20756.2bd16dea@ecs.umass.edu> alee@ecs.umass.edu writes:
 >Greetings!
 >      
 >        Situation:  I have a phone jack mounted on a wall.  I don't
->                    know...
+>                    know the number of the line.  And I don't want
+>                    to call up the operator to place a trace on it.
+>
+>        Question:   Is there a certain device out there that I can
+>                    use to find out the number to the line?
+
+
+Call a friend long distance, collect.  Ask to speak wit...
 True label: sci.electronics
-Predicted label: soc religion christian
+Predicted label: talk religion misc
 --------------------------------------------------------------------------------
 Error 50/2263:
 Text snippet: From: bobbe@vice.ICO.TEK.COM (Robert Beauchaine)
@@ -781,9 +1104,18 @@ In article <ofnWyG600WB699voA=@andrew.cmu.edu> pl1u+@andrew.cmu.edu (Patrick C L
 >
   
   No, that's praying on the young.  Preying on the young comes
-  ...
+  later, when the bright eyed little altar boy finds out what the
+  priest really wears under that chasible.
+
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ 
+
+Bob Beauchaine bobbe@vice.ICO.TEK.COM 
+
+They said that Queens could stay, they blew the Bronx away,
+and sank Manhattan o...
 True label: alt.atheism
-Predicted label: talk religion misc
+Predicted label: atheism
 --------------------------------------------------------------------------------
 Error 51/2263:
 Text snippet: From: tmc@spartan.ac.BrockU.CA (Tim Ciceran)
@@ -797,9 +1129,18 @@ Scott Zabolotzky (saz@hook.corp.mot.com) wrote:
 : I'm not sure if this is the correct place to ask this question.  If not,
 : please forgive me and point me in the right direction.
 
-: Does anybody know of a pro...
+: Does anybody know of a program that converts .GIF files to .BMP files
+: and if so, where can I ftp it from?  Any help would be greatly 
+: appreciated.
+
+: Please respond via e-mail as I do not read this group very often.
+
+: Thanks...Scott
+
+Sorry Scott, if you post it here, you can read it here.  There is a shareware
+program a...
 True label: comp.graphics
-Predicted label: rec motorcycles
+Predicted label: talk politics guns
 --------------------------------------------------------------------------------
 Error 52/2263:
 Text snippet: From: inoue@crd.yokogawa.co.jp (Inoue Takeshi)
@@ -813,9 +1154,14 @@ Lines: 137
 We developed a toolkit running on the X Window System.
 The toolkit copes with any languages based on X11R5's i18n
 facility. As you know, there are 2 kinds of i18n implementation from MIT's 
-X11R...
+X11R5 release -- Xsi and Ximp. Our original implementation of the toolkit
+uses Xsi.
+
+Our toolkit manages each character's size based on our own font management system.
+In order to do that, the 'wchar_t' typed character strings must be decomposed
+to character sets. This means that if one wchar_t type com...
 True label: comp.windows.x
-Predicted label: rec motorcycles
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 53/2263:
 Text snippet: From: erc@plitvice.berkeley.edu (Eric Ng)
@@ -833,9 +1179,23 @@ FOR SALE
 		Sonic the Hedgehog
 		Road Rash
 		John Madden Football '92
-		N....
+		N.H.L. Hockey
+		Sportstalk Baseball
+		Bulls vs. Lakers and the N.B.A. Playoffs
+		John Madden Football '93
+		N.H.L.P.A. Hockey
+		Super Monaco GP II
+
+All of the above for $300 (or best offer); price includes UPS COD
+shipping.
+
+Send e-mail to erc@zabriskie.berkeley.edu if interested.
+
+-eric
+--
+eric ng  e...
 True label: misc.forsale
-Predicted label: rec autos
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 54/2263:
 Text snippet: From: speedy@engr.latech.edu (Speedy Mercer)
@@ -849,7 +1209,15 @@ In article <csundh30.734975106@ursa> csundh30@ursa.calvin.edu (Charles Sundheim)
 <tale of bike-eating-devil-dog deleted>
 
 >Moral: I'm not really sure, but more and more I believe that bikers ought 
->       to be allow...
+>       to be allowed to carry handguns.
+
+Come to Louisiana where it is LEGAL to carry concealed weapons on a bike!
+
+ ----===== DoD #8177 = Technician(Dr. Speed) .NOT. Student =====----
+
+                          Stolen Taglines...
+              * God is real, unless declared integer. *
+            * I came, I saw, I ...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -867,9 +1235,17 @@ Lines: 68
                           ================
 
 Tally up any and all of the books you want and send me a message. 
-Shipping will be by US Mail Parcel Post/Book Rate.  Payme...
+Shipping will be by US Mail Parcel Post/Book Rate.  Payment in advance
+or COD accepted.  
+
+All books are in good to excellent condition.  Paperbacks, unless noted. 
+Quantity Discounts. 
+
+This list is updated continually.  The latest list can be requested by
+e-mail. This list supercedes all previous lists.  Not responsible for typos.
+     !!!! = New To Lis...
 True label: misc.forsale
-Predicted label: soc religion christian
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 56/2263:
 Text snippet: From: kuan@netcom.com (Kuan)
@@ -883,9 +1259,22 @@ It means that either my display memory goes wrong or monitor is bad
 or video card is bad.
    I checked my monitor, it works fine with other Mac.
    I checked my video card, it's also fine.
- ...
+   I replaced all the RAMs, it still didn't give me right answer.
+   Hence I assume something wrong with some part of my motherboard.
+
+   I don't know hardware architecture of the Macintosh.
+
+   Can anyone tell me what's the problem ????
+
+   It's a Mac IIcx.
+
+
+   MANY THANKS IN ADVANCE.
+
+
+kuan@netcom...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 57/2263:
 Text snippet: From: "David R. Sacco" <dsav+@andrew.cmu.edu>
@@ -897,9 +1286,14 @@ Distribution: na
 NNTP-Posting-Host: po4.andrew.cmu.edu
 In-Reply-To: <1993Apr2.170259.13380@cbnewsj.cb.att.com>
 
-   Not to be too snide about it, but I think this Ch...
+   Not to be too snide about it, but I think this Christianity must
+   be a very convenient religion, very maliable and suitable for
+   any occassion since it seems one can take it any way one wants
+   to go with it and follow whichever bits one pleases and
+   reinterpret the bits that don't match with one's desires.  It
+   is, in fact, so convenient...
 True label: talk.religion.misc
-Predicted label: computer windows x
+Predicted label: computer os microsoft windows misc
 --------------------------------------------------------------------------------
 Error 58/2263:
 Text snippet: From: mmm@cup.portal.com (Mark Robert Thorson)
@@ -911,9 +1305,13 @@ Lines: 7
 I offer $100, shipment at seller's expense, payment as personal check
 sent by U.S. mail within 24 hours after receiving goods.  I reserve the
 right to return the goods, at my expense, if I find them to be defective
-or otherwise unacceptable...
+or otherwise unacceptable when I receive them (either the merchandise or
+the check would be mailed within 24 hours).
+
+Mark Thorson
+...
 True label: misc.forsale
-Predicted label: rec autos
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 59/2263:
 Text snippet: From: steve-b@access.digex.com (Steve Brinich)
@@ -925,9 +1323,12 @@ NNTP-Posting-Host: access.digex.net
 
   Agreed.  This is like the Bay of Pigs fiasco (planned by the Eisenhower
 Administration but given the final green light by Kennedy).
-  To be sure, hen it all went...
+  To be sure, hen it all went down, Kennedy was at least man enough to take
+full responsibility, which is not what I expect from Slick Willie Clinton....
+
+...
 True label: sci.crypt
-Predicted label: talk politics guns
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 60/2263:
 Text snippet: From: azw@aber.ac.uk (Andy Woodward)
@@ -943,7 +1344,17 @@ In article <1pcl6i$e4i@bigboote.WPI.EDU> ravi@vanilla.WPI.EDU (Ravi Narayan) wri
 >= 
 >= >2) Why do they ride Harleys?
 >= 
->= 'cause we ...
+>= 'cause we can.
+>= 
+>
+>    you sure are lucky! i am told that there are very few people out
+>    there who can actually get their harley to ride ;-) (the name tod
+>    johnson jumps to the indiscreet mind... laz whats it you used to
+>    ride???).
+>
+>
+>-- 
+>----------_________----------_________----------_____...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -959,9 +1370,13 @@ Hal Heydt writes:
 >continued for another 1000 years--and a key element in it's fall was
 >the *Christian* sack of Constantinople.
 
-Note that I said the fall of Ro...
+Note that I said the fall of Rome, not of the Empire.  The Roman Empire
+lasted until 1453, with its transfered capital in Constantinople.  The
+main reason for it's fall was not so much the sack of Constantinople by
+the men of the 4th Crusade (who were not Christians - they had been
+excommunicated down to the last man after attack...
 True label: soc.religion.christian
-Predicted label: talk politics misc
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 62/2263:
 Text snippet: From: lewis@eecg.toronto.edu (david lewis)
@@ -974,9 +1389,14 @@ In article <16BB51156.C445585@mizzou1.missouri.edu> C445585@mizzou1.missouri.edu
 >strnlght@netcom.com (David Sternlight) writes:
 >>
 [..stuff deleted]
->existence of the key-regis...
+>existence of the key-registry system seems to make possible all kinds of
+>possible attacks at a small fraction of the expense of trying to build (say)
+>a DES keysearch machine.
+> 
+>   As originally described, it sounded like any police / court combination
+>could acquire the key for a given chip.  I hope that's not the case, ...
 True label: sci.crypt
-Predicted label: talk politics guns
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 63/2263:
 Text snippet: From: Wales.Larrison@ofa123.fidonet.org
@@ -988,9 +1408,14 @@ Lines: 82
 the forefront in 1993.  First, in February, the Russians deployed a
 20-m reflector from a Progress vehicle after it had departed from
 the Mir Space Station.  While this "Banner" reflector was blank,
-NPO Energia w...
+NPO Energia was very active in reporting that future  Banner
+reflectors will be available to advertisers, who could use a space-
+based video of their logo or ad printed on the Banner in a TV
+commercial, as filmed from the Mir.
+   The second development, has been that Space Marketing Inc, the
+same company respons...
 True label: sci.space
-Predicted label: computer systems mac hardware
+Predicted label: rec autos
 --------------------------------------------------------------------------------
 Error 64/2263:
 Text snippet: From: jge@cs.unc.edu (John Eyles)
@@ -1006,9 +1431,19 @@ disease.
 
 But she can't seem to eat certain foods, such as fresh vegetables,
 without discomfort, and of course she wants to avoid a recurrence.
+
+Her question is: are there any nutritionists who specialize in the
+problems of people with Crohn's disease ?
+
+(I saw the suggestion of lipoxygnase inhibitors like tea and turmeric).
+
+Thanks in advance,
+John Eyles
+jge@cs.unc.edu
+
 ...
 True label: sci.med
-Predicted label: rec sport baseball
+Predicted label: sci med
 --------------------------------------------------------------------------------
 Error 65/2263:
 Text snippet: From: gene@theporch.raider.net (Gene Wright)
@@ -1020,9 +1455,16 @@ With the continuin talk about the "End of the Space Age" and complaints
 by government over the large cost, why not try something I read about 
 that might just work.
 
-Announce that a reward of $1 billion would go to the first...
+Announce that a reward of $1 billion would go to the first corporation 
+who successfully keeps at least 1 person alive on the moon for a year. 
+Then you'd see some of the inexpensive but not popular technologies begin 
+to be developed. THere'd be a different kind of space race then!
+
+--
+  gene@theporch.raider.net (Gene Wright)
+theporch.raider.net  615/297-...
 True label: sci.space
-Predicted label: computer systems mac hardware
+Predicted label: rec autos
 --------------------------------------------------------------------------------
 Error 66/2263:
 Text snippet: From: dtate+@pitt.edu (David M. Tate)
@@ -1035,9 +1477,16 @@ sbp002@acad.drake.edu said:
 >> In article 2482@adobe.com, snichols@adobe.com (Sherri Nichols) writes:
 >>>Every single piece of evidence we can find points to Major League Baseball
 >>>being 50% offense, 50% defense.  A run scored is just as important as a run
->...
+>>>prevented.  
+
+>Of course a run scored is just as important as a run prevented.
+>Just as a penny saved is a penny earned.  Enough with the cliches.
+
+It's not a cliche, and (unlike your comments below) it's not a tautology.
+It needn't have been true.  If every pitcher in baseball were essentially
+th...
 True label: rec.sport.baseball
-Predicted label: misc forsale
+Predicted label: sci electronics
 --------------------------------------------------------------------------------
 Error 67/2263:
 Text snippet: From: kadie@cs.uiuc.edu (Carl M Kadie)
@@ -1052,9 +1501,14 @@ kubo@zariski.harvard.edu (Tal Kubo) writes:
 >and pictures newsgroups at various universities.
 [...]
 
-So what? Justices William Brennan, Thurgood Marshal...
+So what? Justices William Brennan, Thurgood Marshall, John Paul
+Stevens, and Byron White are associated with a plurality Supreme Court
+decision that prevented the removal of "anti-American, anti-Christian,
+anti-Semitic, and just plain filthy" books from a public high school
+library [_Board of Education v. Pico_ (1982)]. Does this mean that
+they coul...
 True label: sci.crypt
-Predicted label: computer os microsoft windows misc
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 68/2263:
 Text snippet: From: gballent@hudson.UVic.CA (Greg  Ballentine)
@@ -1066,9 +1520,14 @@ Lines: 56
 
 
 In article 6143@ramsey.cs.laurentian.ca, maynard@ramsey.cs.laurentian.ca (Roger Maynard) writes:
->In <1993Apr14.201910.13370@sol.UVic.CA> gballent@vancouver.UVic.CA (Greg  Ballentine)...
+>In <1993Apr14.201910.13370@sol.UVic.CA> gballent@vancouver.UVic.CA (Greg  Ballentine) writes:
+
+>>1. You have completely missed the point with the Selke trophy.  It goes
+>>to the best defensive forward.  This is the forward who forgoes points
+>>to help his team out defensively.  It is an unsung hero of sorts.  Yes,
+>>Lemieux and Gilmour are good defensive players, but they play a mor...
 True label: rec.sport.hockey
-Predicted label: atheism
+Predicted label: computer systems mac hardware
 --------------------------------------------------------------------------------
 Error 69/2263:
 Text snippet: From: jap10@po.CWRU.Edu (Joseph A. Pellettiere)
@@ -1082,9 +1541,14 @@ NNTP-Posting-Host: thor.ins.cwru.edu
 
 	I am looking for any information about the Sigma Designs
 	double up board.  All I can figure out is that it is a
-	hardware compression boar...
+	hardware compression board that works with AutoDoubler, but
+	I am not sure about this.  Also how much would one cost?
+-- 
+Joe
+jap10@po.cwru.edu
+...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 70/2263:
 Text snippet: From: pgf5@cunixa.cc.columbia.edu (Peter Garfiel Freeman)
@@ -1104,7 +1568,7 @@ execution. I will post it later on.
 
 ...
 True label: talk.politics.mideast
-Predicted label: misc forsale
+Predicted label: rec sport baseball
 --------------------------------------------------------------------------------
 Error 71/2263:
 Text snippet: From: sepinwal@mail.sas.upenn.edu (Alan Sepinwall)
@@ -1118,9 +1582,14 @@ Buck Showalter just can't win.
 
 Bob Wickman's pitching the game of his life through eight innings (Yanks
 lead 6-1), so Buck decides to let the kid try and get his first complete
-game. ...
+game. Wickman manages to get two outs, but in between, four funs score,
+and all of a sudden it's 6-5, and Wickman just can't get the third out.
+So Buck goes to the bullpen, and Farr gets out the first guy he faces.
+
+Last night, Jimmy Key is pitching another in a long string of games of his
+life (this guy ...
 True label: rec.sport.baseball
-Predicted label: misc forsale
+Predicted label: sci electronics
 --------------------------------------------------------------------------------
 Error 72/2263:
 Text snippet: From: ednclark@kraken.itc.gu.edu.au (Jeffrey Clark)
@@ -1132,9 +1601,15 @@ Lines: 27
 cfaehl@vesta.unm.edu (Chris Faehl) writes:
 
 >Why is it more reasonable than the trend towards obesity and the trend towards
->depression? You can't just pick your two favorite trends, notice a correlat...
+>depression? You can't just pick your two favorite trends, notice a correlation 
+>in them, and make a sweeping statement of generality. I mean, you CAN, and 
+>people HAVE, but that does not mean that it is a valid or reasonable thesis. 
+>At best it's a gross oversimplification of the push-pull factors people 
+>experience.  
+
+I agree, I reckon it's television and the increas...
 True label: alt.atheism
-Predicted label: talk religion misc
+Predicted label: atheism
 --------------------------------------------------------------------------------
 Error 73/2263:
 Text snippet: From: jdolske@andy.bgsu.edu (justin dolske)
@@ -1147,9 +1622,13 @@ lyourk@cbnewsc.cb.att.com (Loran N. Yourk) writes:
 > 
 > With a sound card on interrupt 5, two serial ports (one for modem on i4,
 > one for Miracle Piano on i3) and a printer port on i7, I have run out of
-> low interrup...
+> low interrupts.  What I would like is a mouse port with an interrupt of
+> 10, 11, or 12 (which ever interrupt the PS/2 mouse port uses) in in ISA
+> i486 computer.  I called technical support of Microsoft, Logitech, & ATI
+> (checked what interrupts the mouse port on the ATI video cards can use)
+> and they all sa...
 True label: comp.sys.ibm.pc.hardware
-Predicted label: computer systems ibm pc hardware
+Predicted label: rec sport baseball
 --------------------------------------------------------------------------------
 Error 74/2263:
 Text snippet: From: cmwand@leland.Stanford.EDU (Christopher Wand)
@@ -1161,9 +1640,13 @@ Lines: 30
 In article <93759@hydra.gatech.EDU> gt8798a@prism.gatech.EDU (Anthony S. Kim) writes:
 >I remember someone mention about a 150meg syquest.  Has anyone else
 >heard anything about this?  I'd be interested in the cost per megabyte and the
->...
+>approximate cost of the drive itself and how they compare to the Bernoulli 150.
+
+I think you must be talking about the Syquest 105 (code named Mesa I believe).
+It is a 3.5" Winchester technology drive pretty much like the other Syquest
+drives in terms of how it works. According to the latest MacLeak...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 75/2263:
 Text snippet: From: matt@centerline.com (Matt Landau)
@@ -1178,9 +1661,16 @@ In <ellis.735675321@nova> ellis@nova.gmi.edu (R. Stewart Ellis) writes:
 >                                x
 >It is X window.
 
-No, it isn't.  It ...
+No, it isn't.  It is the "X Window System", or "X11", or "X" or any of
+a number of other designations accepted by the X Consortium.  In fact,
+doing "man X" on pretty much any X11 machine will tell you:
+
+     The X Consortium requests that the following names  be  used
+     when referring to this software:
+
+          ...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 76/2263:
 Text snippet: From: steve-b@access.digex.com (Steve Brinich)
@@ -1193,9 +1683,11 @@ NNTP-Posting-Host: access.digex.net
  > I wonder if she landed such a fat fee from cooperation with the NSA in
  >the design and propoganda stages that she doesn't care any more? 
 
-  Which is to say: i...
+  Which is to say: is the NSA -totally- perfidious, or does it at least
+have the redeeming virtue of taking care of its own? <g>
+...
 True label: sci.crypt
-Predicted label: talk politics guns
+Predicted label: misc forsale
 --------------------------------------------------------------------------------
 Error 77/2263:
 Text snippet: From: mcgoy@unicorn.acs.ttu.edu (David McGaughey)
@@ -1217,7 +1709,7 @@ There MUST be SOME connection between those two lines!
 
 ...
 True label: alt.atheism
-Predicted label: talk politics misc
+Predicted label: computer windows x
 --------------------------------------------------------------------------------
 Error 78/2263:
 Text snippet: Subject: STAR TREK ORNAMENT
@@ -1230,9 +1722,14 @@ Lines: 10
    I have some Star Trek Christmas Ornaments for sale.  They are the the
 Hallmark Shuttle Craft Galileo.  They went for $24.00 during christmas.  I
 am willing to sell it for that price + shipping.  If you are interested
-and have some questions...
+and have some questions, please reply... 
+
+
+give me a call at 714-539-4251.. DANG
+
+...
 True label: misc.forsale
-Predicted label: rec autos
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 79/2263:
 Text snippet: From: winfrvk@dutiws.twi.tudelft.nl (R.v.Kampen)
@@ -1243,9 +1740,13 @@ Lines: 22
 In article <1993Apr11.045019.22221@nwnexus.WA.COM> paulf@halcyon.com (Marlboro Man) writes:
 >I am looking for a way to access the floppy drive at the I/O level, that
 >is, lower than the BIOS.  Given the port assignments, what controller
->chip/spec sheet do I ...
+>chip/spec sheet do I need info on?  My floppy is a 1.44M, and I would
+>also like to be able to write code that works on 360K disks as well.
+>Also, with the method of access, is it possible to actually read the
+>individual bytes on the track as they stream into the controller?  I'm
+>afraid the sector handling is done pur...
 True label: comp.sys.ibm.pc.hardware
-Predicted label: computer systems ibm pc hardware
+Predicted label: rec sport baseball
 --------------------------------------------------------------------------------
 Error 80/2263:
 Text snippet: From: jr0930@eve.albany.edu (REGAN JAMES P)
@@ -1260,9 +1761,12 @@ drawing using fractals in TurboPascal for an IBM
               Thanks in advance
 -- 
  |||||||||||   		 	   ||||||||||| 
+_|||||||||||_______________________|||||||||||_      jr0930@eve.albany.edu
+-|||||||||||-----------------------|||||||||||-     jr0930@Albnyvms.bitnet
+ |||||||||||  GO HEAVY OR GO HOME  |||||||||||
 ...
 True label: comp.graphics
-Predicted label: rec motorcycles
+Predicted label: talk politics guns
 --------------------------------------------------------------------------------
 Error 81/2263:
 Text snippet: From: geb@cs.pitt.edu (Gordon Banks)
@@ -1275,9 +1779,14 @@ In article <C5rp8K.Kw2@acsu.buffalo.edu> psyrobtw@ubvmsb.cc.buffalo.edu (Robert 
 >Gordon Banks quoted and added...
 >
 >gb> In article <C53L1s.D61@acsu.buffalo.edu>
->gb>  psyrobtw@ubvmsd.cc.buffalo.edu (Robert...
+>gb>  psyrobtw@ubvmsd.cc.buffalo.edu (Robert Weiss) writes:
+>gb>
+>gb> >The Mormon Jesus is the spirit brother of Lucifer. That Jesus is God
+>gb> >the Father's first born spirit child. That Jesus was begotten on earth
+>gb> >through natural means, not by the Holy Ghost. That He sweat His blood
+>gb> >for our sins in the Garden of Gethsemane. Tha...
 True label: talk.religion.misc
-Predicted label: computer windows x
+Predicted label: computer os microsoft windows misc
 --------------------------------------------------------------------------------
 Error 82/2263:
 Text snippet: From: leon@dimatrix.DK (Leon Thrane)
@@ -1291,9 +1800,17 @@ As we don't get a newsfeed I was wondering whether there was such a
 thing as a Xt mailing list (other than xpert@expo.lcs.mit.edu).  I
 would appreciate any info on this, (or X related mailing lists.)
 
-        Thanks in advance,...
+        Thanks in advance,
+
+        Leon
+
++-------------------------------+---------------------------------+
+| Leon Thrane                   | Telephone:    +45 - 45 93 51 00 |
+| DimatriX ApS                  | FAX:          +45 - 45 93 51 11 |
+| Lyngby Hovedgade 15D          | E-mail:       leon@dimatrix.dk  |
+| DK-2800 Ly...
 True label: comp.windows.x
-Predicted label: computer graphics
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
 Error 83/2263:
 Text snippet: From: tobias@convex.com (Allen Tobias)
@@ -1305,7 +1822,12 @@ X-Disclaimer: This message was written by a user at CONVEX Computer
               not necessarily those of CONVEX.
 Lines: 27
 
-In article...
+In article <19APR93.15421177@skyfox> howp@skyfox writes:
+>Hi.
+>     I am considering the purchase of a 1984 Honda 1000cc Interceptor for
+>$2095 CDN (about $1676 US).  I don't know the mileage on this bike, but from
+>the picture in the 'RV Trader' magazine, it looks to be in good shape.
+>Can anybody enlighten ...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -1319,9 +1841,21 @@ Lines: 34
 In article <1qksuq$1tt8@hal.gnu.ai.mit.edu>, mirsky@hal.gnu.ai.mit.edu
 (David Joshua Mirsky) writes:
 |> Hi. I own an LCIII and I recently heard an interesting rumor.
-|> I heard that the LCII...
+|> I heard that the LCIII has a built in slot for a PowerPC chip.
+|> Is this true? I heard that the slot is not the same as the PDS
+|> slot.  Is that true?
+|> 
+|> Thanks
+|> David Mirsky
+|> mirsky@gnu.ai.mit.edu
+
+Well, I also have an LC III.  Popping the top revealed:
+
+	One "socket" for an additional VRAM SIMM
+
+	One "socket...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 85/2263:
 Text snippet: From: astein@nysernet.org (Alan Stein)
@@ -1335,9 +1869,16 @@ hernlem@chess.ncsu.edu (Brad Hernlem) writes:
 >civilians for cover, are they not killing SOLDIERS in THEIR country?
 
 So, it's okay to use civilians for cover if you're attacking soldiers
-in your country.  (O...
+in your country.  (Of course, many of those attacking claim that they
+aren't Lebanese, so it's not their country.)
+
+Got it.  I think.  Hmm.  This is confusing.
+
+Could you perhaps repeat your rules explaining exactly when it is
+permissible to use civilians as shields?  Also please explain under
+what conditions it is per...
 True label: talk.politics.mideast
-Predicted label: rec sport hockey
+Predicted label: computer graphics
 --------------------------------------------------------------------------------
 Error 86/2263:
 Text snippet: From: schneier@chinet.chi.il.us (Bruce Schneier)
@@ -1364,9 +1905,14 @@ In article <Apr.23.02.55.25.1993.3117@geneva.rutgers.edu>, rjs2@po.cwru.edu (Ric
 > In a previous article, randerso@acad1.sahs.uth.tmc.edu (Robert Anderson) says:
 > 
 > >I would like to get your opinions on this: when exactly does an engaged
-> >couple become "married" ...
+> >couple become "married" in God's eyes?  Some say that if the two have
+> >publically announced their plans to marry, have made their vows to God, and
+> >are unswervingly committed to one another (I realize this is a subjective
+> >qualifier) they are married/joined in God's sight.
+> 
+> I have discussed this with my girlfrien...
 True label: soc.religion.christian
-Predicted label: talk politics misc
+Predicted label: computer windows x
 --------------------------------------------------------------------------------
 Error 88/2263:
 Text snippet: From: Gregory.Park@dartmouth.edu (Gregory Park)
@@ -1378,9 +1924,16 @@ Lines: 10
 ROLAND JUNO 60- SYNTHESIZER. EXCELLENT CONDITION. GREAT FAT ANALOG
 SOUND. USED IN THE SONG "JUMP" BY VAN HALEN. $300 OR BEST OFFER
 
-UNIDEN RD-9XL RADAR DETECTOR- EXCELLENT CONDITION. DO...
+UNIDEN RD-9XL RADAR DETECTOR- EXCELLENT CONDITION. DON'T BE CAUGHT BY
+THE COPS! $50 OR BEST OFFER! SMALLER THAN A CREDIT CARD. COMPACT!
+
+FOR THE KEYBOARD EMAIL GREG.PARK@DARTMOUTH.EDU
+FOR THE RADAR EMAIL RICH.LEE@DARTMOUTH.EDU
+
+CIAO.
+...
 True label: misc.forsale
-Predicted label: rec autos
+Predicted label: rec sport hockey
 --------------------------------------------------------------------------------
 Error 89/2263:
 Text snippet: From: "William K. Willis" <ww1a+@andrew.cmu.edu>
@@ -1392,9 +1945,13 @@ NNTP-Posting-Host: andrew.cmu.edu
 
      As a person who has rarely even SEEN Don Cherry and doesn't know
 anything about him, I don't know whether it is just this area
-(Pittsburgh) of the USA that is "deprived" of...
+(Pittsburgh) of the USA that is "deprived" of his broadcasts or whether
+he's a Canadian thing altogether.  Seriously, what is he all about?  I
+know he was a coach at one time, and from the volume of posts about him,
+SOMEONE surely is getting a steady diet of him somehow, but my question
+is, what is the deal with him?  Secondly, are the comment...
 True label: rec.sport.hockey
-Predicted label: sci med
+Predicted label: sci space
 --------------------------------------------------------------------------------
 Error 90/2263:
 Text snippet: From: kxgst1@pitt.edu (Kenneth Gilbert)
@@ -1407,9 +1964,15 @@ jec@watson.ibm.com wrote:
 : A very simple question : it seems to me that the contraceptive
 : pill just prevents the ovule to nest in the vagina and forces it to
 : fall every month. But it does not prevent the fertilzation of the 
-: ovule. Is it true ? If ye...
+: ovule. Is it true ? If yes, is there a risk of extra-uterine
+: pregnancy, that is the development of the ovule inside the Fallopian
+: tube ?
+
+Actually that is not how the pill works, but it *is* how the IUD works.
+The oral contraceptive pill actually *prevents* ovulation from occuring
+by providing negatve feedback to the pi...
 True label: sci.med
-Predicted label: sci electronics
+Predicted label: sci med
 --------------------------------------------------------------------------------
 Error 91/2263:
 Text snippet: From: ayari@judikael.loria.fr (Ayari Iskander)
@@ -1435,9 +1998,26 @@ EA/ NHLPA game
 10.CGY  10
 11.QUE   9
 12.ASE   8
-1...
+13.WPG   7
+14.LA    5
+   OTW   5
+   STL   5
+   TOR   5
+18.BUF   3
+   PHI   3
+   TBY   3
+21.SJ    2
+22.MIN   1
+   Atlanta to win Turner Cup 1 (not in the game, but 1 person vote)
+24.EDM   0
+   HTF   0
+   LI    0
+   NJ    0
+
+4 teams have no point
+Continue to send your votes in this format (until April ...
 True label: rec.sport.hockey
-Predicted label: atheism
+Predicted label: computer systems mac hardware
 --------------------------------------------------------------------------------
 Error 92/2263:
 Text snippet: From: baseball@catch-the-fever.scd.ucar.edu (Gregg Walters)
@@ -1454,9 +2034,16 @@ Rockies (Nied) lead Mets (Gooden) 4 - 0 in 7th.
 All runs in first inning.
 
 Gregg            \\   baseball@ncar.ucar.edu   //
-		  \\        ...
+		  \\            /\            //
+	       _^   \          /  \          /   ^_
+	       _\|__/\        /    \        /\__|/_
+	      /\___/         /      \         \___/\
+	     | CR/        /\/   o    \/\        \CR |
+	     |--/        /     /        \        \--|
+	      \ \       /     //         \       / /
+	  ...
 True label: rec.sport.baseball
-Predicted label: misc forsale
+Predicted label: sci electronics
 --------------------------------------------------------------------------------
 Error 93/2263:
 Text snippet: From: abea@az.stratus.com (Art Beattie)
@@ -1469,9 +2056,13 @@ NNTP-Posting-Host: cababi.az.stratus.com
 In article <katinka@FenK.wau.nl> (Katinka van der Linden) writes:
 } I would like more info on this if anybody has it. Our Exabyte
 } 8500 tapedrive has never been working from the Quadra 950.
-} We have been trying ...
+} We have been trying it since September 1992, replaced cabling,
+} inits, I don't know what all. All the "industry experts" we
+} phoned (the tapedrive dealer, our Apple dealer, the software
+} dealer) all say it's our fault, or they don't know. The last
+} thing they said was that we needed a special Quadra SCSI terminator...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 94/2263:
 Text snippet: From: callison@uokmax.ecn.uoknor.edu (James P. Callison)
@@ -1482,9 +2073,16 @@ Lines: 40
 
 In article <1993Apr15.173951.20173@icf.hrb.com> jek@icf.hrb.com (Joe Karolchik) writes:
 >(I deleted your name because I don't want to sound accusative in my remark)
-...
+>> 
+>> On another occasion, on my way from Texas to Florida, I had stopped in 
+>> a small motel
+>> for the night in a small town somewhere in Florida. About 5 youths were 
+>> disturbing my
+>> car, setting off the alarm and challenging me to come out. When I and 
+>> another tenant
+>> walked out with ...
 True label: rec.autos
-Predicted label: rec sport baseball
+Predicted label: sci crypt
 --------------------------------------------------------------------------------
 Error 95/2263:
 Text snippet: From: car377@cbnewsj.cb.att.com (charles.a.rogers)
@@ -1495,7 +2093,16 @@ Organization: AT&T
 Lines: 17
 
 In article <1993Apr3.044405.16947@elektro.cmhnet.org>, charlie@elektro.cmhnet.org (Charlie Smith) writes:
-> In article <1993Mar24.011823.7887@linus.mitre.org> cookson@mbunix.mitre...
+> In article <1993Mar24.011823.7887@linus.mitre.org> cookson@mbunix.mitre.org (Cookson) writes:
+> >Anyone try the spray on chain wax that was reviewed in one of the moto
+> >rags last month?
+> 
+> 
+> Yeah.    I sprayed it all over my rear drive shaft housing, and it didn't
+> seem to make it any quieter at all <!!>
+
+Didn't you read the instructions first??
+You're supposed t...
 True label: rec.motorcycles
 Predicted label: talk politics mideast
 --------------------------------------------------------------------------------
@@ -1508,7 +2115,7 @@ Lines: 1
 Doesn't Motorola AMCU have something on the BBS yet? (512-891-3733)
 ...
 True label: sci.electronics
-Predicted label: sci electronics
+Predicted label: talk politics guns
 --------------------------------------------------------------------------------
 Error 97/2263:
 Text snippet: From: dashley@wyvern.wyvern.com (Doug Ashley)
@@ -1522,9 +2129,14 @@ Ravi Konchigeri <mongoose@leland.stanford.edu> writes:
 >sector or something) was an IBM.  The new one is a Quantum.  Is the LCIII
 >supposed to be shipped with IBMs?  Is there a quality difference? 
 
-Officially, no. ...
+Officially, no. From experience (yours now included!), yes. Quantums seem to
+be the most problem-free brand on the Mac.
+
+>Second, about hard drive position.  I've put the LCIII on its side and
+>the new 160 HD has had no problems at all.  I've even switched back and
+>forth between horizontal and vertical and there a...
 True label: comp.sys.mac.hardware
-Predicted label: sci space
+Predicted label: talk politics misc
 --------------------------------------------------------------------------------
 Error 98/2263:
 Text snippet: From: e8l6@jupiter.sun.csd.unb.ca (Rocket)
@@ -1540,9 +2152,14 @@ Lines: 694
     Player       Team   GP  G   A  Pts ppg  Prj PIM +/-
 
     M.Lemieux    PIT    59  69  91 160 2.71 160  38  53
-    L...
+    LaFontaine   BUF    82  53  95 148 1.80 148  63  13
+    Oates        BOS    83  45  97 142 1.71 142  32  12
+    Yzerman      DET    83  58  79 137 1.65 137  44  33
+    Turgeon      NYI    80  58  74 132 1.65 132  26  -2
+    Selanne      WIN    82  76  56 132 1.61 132  45   6
+    Mogilny      BUF    7...
 True label: rec.sport.hockey
-Predicted label: atheism
+Predicted label: computer systems mac hardware
 --------------------------------------------------------------------------------
 Error 99/2263:
 Text snippet: From: lusardi@cs.buffalo.edu (Christopher Lusardi)
@@ -1557,9 +2174,12 @@ send me?
 				Any help accepted,
 -- 
 |  .-,                ###|For a lot of .au music: ftp sounds.sdsu.edu
-| /   /   __  ,  _    ###|then cat file.a...
+| /   /   __  ,  _    ###|then cat file.au > /dev/audio
+| \_>/ >_/ (_/\_/<>_     |UB library catalog:telnet bison.acsu.buffalo.edu
+|_                14261 _|(When in doubt ask: xarchie, xgopher, or xwais.)
+...
 True label: comp.graphics
-Predicted label: computer graphics
+Predicted label: talk religion misc
 --------------------------------------------------------------------------------
 Error 100/2263:
 Text snippet: From: gerard@netlabs.com (Gerard Horan)
@@ -1572,7 +2192,15 @@ Lines: 41
 Some time back I asked for software recommendations to  allow me to
 run X from my PC at home to my Sparc at the office.
 
-Many thanks for all replies, the majority of people ...
+Many thanks for all replies, the majority of people  recommended
+PCXremote from NCD. I received it yesterday  and installed it on
+my Sparc and PC with only one hitch. 
+The UNIX install consists of copying 2 files into some local bin directory. 
+On the PC side, I ordered the WINDOWS version  which  came with a slick windows
+installation.
+
+
+The only pr...
 True label: comp.windows.x
-Predicted label: sci crypt
+Predicted label: soc religion christian
 --------------------------------------------------------------------------------
