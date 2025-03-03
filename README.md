@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mIB_EBL1)
 # Commands
 
 ## Virtual environment creation
@@ -30,7 +29,6 @@ python multilayer_perceptron.py --data newsgroups --epochs 12 --learning_rate 0.
 
 ## Commands to run unittests
 
-It's recommended to ensure that your code passes the unittests before submitting it.
 The commands can be run from the root directory of the project.
 
 ```{sh}
@@ -39,16 +37,4 @@ pytest tests/test_perceptron.py
 pytest tests/test_multilayer_perceptron.py
 ```
 
-## Submission
 
-Please do NOT commit any code that changes the following files and directories:
-
-- tests/
-- .github/
-- pytest.ini
-
-Otherwise, your submission may be flagged by GitHub Classroom autograder.
-
-Please DO commit your code changes in other python files. The autograder will every time you push to the main branch.
-
-Please DO commit your output labels in results/ following the same name and content format. Our leaderboard periodically pulls your outputs and computes accuracy against hidden test labels. <https://github.com/cornell-cs5740-sp25/leaderboards/>
